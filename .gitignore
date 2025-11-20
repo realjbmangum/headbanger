@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data backups
+*.bak
+*_backup.*
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# CSV editor temp files
+~$*.csv
+.~lock.*
+
+# Personal notes (not for repo)
+notes/personal/
+scratch/
+TODO_personal.md
+
+# Large media files (episodes should not be committed)
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.flv
+*.mpg
+*.mpeg
+
+# Audio files
+*.mp3
+*.wav
+*.flac
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Analysis outputs
+analysis_output/
+reports/*.pdf
