@@ -1,1 +1,5 @@
 host_id,host_name,start_date,end_date,era,episodes_hosted,notable_moments,bio,source_citations
+HOST-001,Kevin Seal,1987-04-18,1988-06-30,Classic MTV,~50,Launched the show with first-ever episode; Established show format,MTV VJ who brought mainstream presentation style to heavy metal programming,wikipedia.org; imdb.com; episodehive.com
+HOST-002,Adam Curry,1988-06-01,1990-05-18,Classic MTV,~80,Hosted during transition from glam to thrash metal; Featured international acts,MTV VJ and radio personality; Later became internet pioneer and podcasting innovator,wikipedia.org; imdb.com; episodehive.com
+HOST-003,Riki Rachtman,1990-05-19,1995-01-14,Classic MTV,~238,Most iconic host; Navigated grunge explosion; Maintained metal credibility; Moscow Music Peace Festival coverage,Owner of The Cathouse club in Hollywood; Most associated with show's golden age,wikipedia.org; imdb.com; episodehive.com; crooked-wanderer.com
+HOST-004,Jamey Jasta,2003-09-01,2007-12-31,MTV2 Revival,~150,Revived show after 8-year hiatus; Championed metalcore and extreme metal,Frontman of Hatebreed; Active musician hosting about his own genre,wikipedia.org; imdb.com
