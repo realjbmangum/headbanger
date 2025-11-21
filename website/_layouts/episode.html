@@ -1,0 +1,295 @@
+---
+layout: default
+---
+
+<article class="episode-detail">
+    <div class="container">
+        <!-- Episode Header -->
+        <header class="episode-header">
+            <div class="episode-breadcrumb">
+                <a href="{{ '/' | relative_url }}">Home</a> /
+                <a href="{{ '/episodes/' | relative_url }}">Episodes</a> /
+                {{ page.air_date | date: "%Y" }}
+            </div>
+
+            <h1 class="episode-detail-title">
+                {% if page.episode_number %}
+                    Episode {{ page.episode_number }}
+                {% else %}
+                    Episode
+                {% endif %}
+            </h1>
+
+            <div class="episode-air-date">
+                {{ page.air_date | date: "%B %d, %Y" }}
+            </div>
+        </header>
+
+        <!-- Episode Info Grid -->
+        <div class="episode-info-grid">
+            <div class="info-card">
+                <h3>Details</h3>
+                <dl class="info-list">
+                    <dt>Episode ID:</dt>
+                    <dd>{{ page.episode_id }}</dd>
+
+                    <dt>Air Date:</dt>
+                    <dd>{{ page.air_date | date: "%B %d, %Y" }}</dd>
+
+                    <dt>Season:</dt>
+                    <dd>{{ page.season }}</dd>
+
+                    <dt>Era:</dt>
+                    <dd><span class="badge">{{ page.era }}</span></dd>
+                </dl>
+            </div>
+
+            <div class="info-card">
+                <h3>Hosts & Guests</h3>
+                <dl class="info-list">
+                    {% if page.host %}
+                    <dt>Host:</dt>
+                    <dd>{{ page.host }}</dd>
+                    {% endif %}
+
+                    {% if page.guest_host %}
+                    <dt>Guest Hosts:</dt>
+                    <dd>{{ page.guest_host }}</dd>
+                    {% endif %}
+
+                    {% if page.theme %}
+                    <dt>Theme:</dt>
+                    <dd><span class="badge badge-theme">{{ page.theme }}</span></dd>
+                    {% endif %}
+                </dl>
+            </div>
+        </div>
+
+        <!-- Episode Content -->
+        <div class="episode-content">
+            {{ content }}
+
+            {% if page.special_notes %}
+            <div class="special-notes">
+                <h3>📝 Special Notes</h3>
+                <p>{{ page.special_notes }}</p>
+            </div>
+            {% endif %}
+
+            {% if page.source_citations %}
+            <div class="sources">
+                <h4>Sources:</h4>
+                <p class="source-text">{{ page.source_citations }}</p>
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- Navigation -->
+        <nav class="episode-nav">
+            {% assign sorted_episodes = site.episodes | sort: 'air_date' %}
+            {% assign current_index = sorted_episodes | map: 'url' | index: page.url %}
+
+            {% if current_index > 0 %}
+                {% assign prev_episode = sorted_episodes[current_index | minus: 1] %}
+                <a href="{{ prev_episode.url | relative_url }}" class="nav-button nav-prev">
+                    ← Previous Episode
+                    <span class="nav-date">{{ prev_episode.air_date | date: "%B %d, %Y" }}</span>
+                </a>
+            {% else %}
+                <span class="nav-button nav-disabled"></span>
+            {% endif %}
+
+            <a href="{{ '/episodes/' | relative_url }}" class="nav-button nav-all">
+                All Episodes
+            </a>
+
+            {% assign next_index = current_index | plus: 1 %}
+            {% if next_index < sorted_episodes.size %}
+                {% assign next_episode = sorted_episodes[next_index] %}
+                <a href="{{ next_episode.url | relative_url }}" class="nav-button nav-next">
+                    Next Episode →
+                    <span class="nav-date">{{ next_episode.air_date | date: "%B %d, %Y" }}</span>
+                </a>
+            {% else %}
+                <span class="nav-button nav-disabled"></span>
+            {% endif %}
+        </nav>
+    </div>
+</article>
+
+<style>
+.episode-detail {
+    padding: var(--spacing-xxl) 0;
+}
+
+.episode-header {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.episode-breadcrumb {
+    font-size: 0.875rem;
+    color: var(--color-text-dim);
+    margin-bottom: var(--spacing-md);
+}
+
+.episode-detail-title {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.episode-air-date {
+    font-size: 1.25rem;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.episode-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.info-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-lg);
+}
+
+.info-card h3 {
+    margin-bottom: var(--spacing-md);
+    color: var(--color-primary);
+}
+
+.info-list {
+    display: grid;
+    gap: var(--spacing-sm);
+}
+
+.info-list dt {
+    font-weight: 600;
+    color: var(--color-text-dim);
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.info-list dd {
+    margin-bottom: var(--spacing-md);
+}
+
+.badge {
+    display: inline-block;
+    background: var(--color-bg-alt);
+    color: var(--color-accent);
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.badge-theme {
+    background: var(--color-secondary);
+    color: var(--color-text);
+}
+
+.episode-content {
+    max-width: 800px;
+    margin: 0 auto var(--spacing-xl);
+}
+
+.special-notes {
+    background: var(--color-bg-alt);
+    border-left: 4px solid var(--color-primary);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius);
+    margin: var(--spacing-xl) 0;
+}
+
+.sources {
+    margin-top: var(--spacing-xl);
+    padding-top: var(--spacing-lg);
+    border-top: 1px solid var(--color-border);
+}
+
+.sources h4 {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-dim);
+    margin-bottom: var(--spacing-xs);
+}
+
+.source-text {
+    font-size: 0.875rem;
+    color: var(--color-text-dim);
+}
+
+.episode-nav {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: var(--spacing-md);
+    align-items: center;
+    margin-top: var(--spacing-xxl);
+}
+
+.nav-button {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-md);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+}
+
+.nav-date {
+    font-size: 0.75rem;
+    color: var(--color-text-dim);
+    margin-top: var(--spacing-xs);
+}
+
+.nav-all {
+    background: var(--color-primary);
+    color: var(--color-bg);
+    border-color: var(--color-primary);
+}
+
+.nav-all:hover {
+    background: transparent;
+    color: var(--color-primary);
+}
+
+.nav-disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    .episode-nav {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-prev {
+        order: 2;
+    }
+
+    .nav-all {
+        order: 1;
+    }
+
+    .nav-next {
+        order: 3;
+    }
+}
+</style>

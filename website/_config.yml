@@ -1,0 +1,67 @@
+# Headbangers Ball Archive - Jekyll Configuration
+
+# Site settings
+title: "Headbangers Ball Archive"
+description: "The definitive archive of MTV's legendary heavy metal show (1987-2012)"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://realjbmangum.github.io" # your GitHub Pages URL (update this)
+repository: "realjbmangum/headbanger"
+
+# Theme and styling
+theme: null # We'll use custom theme
+markdown: kramdown
+highlighter: rouge
+
+# Collections
+collections:
+  episodes:
+    output: true
+    permalink: /episodes/:year/:month/:day/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "episodes"
+    values:
+      layout: "episode"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Data files
+data_source: _data
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - scripts
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Pagination
+paginate: 50
+paginate_path: "/episodes/page:num/"
+
+# SEO
+twitter:
+  username: headbangersball
+  card: summary_large_image
+
+social:
+  name: Headbangers Ball Archive
+  links:
+    - https://github.com/realjbmangum/headbanger
+
+# Analytics (add later)
+# google_analytics: UA-XXXXXXXX-X

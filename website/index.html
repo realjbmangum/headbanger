@@ -1,0 +1,113 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+    <div class="container">
+        <h1 class="hero-title">Headbangers Ball Archive</h1>
+        <p class="hero-subtitle">The definitive archive of MTV's legendary heavy metal show (1987-2012)</p>
+
+        <div class="hero-stats">
+            <div class="stat-card">
+                <div class="stat-number">{{ site.data.stats.total_episodes }}</div>
+                <div class="stat-label">Episodes Documented</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">{{ site.data.stats.years | size }}</div>
+                <div class="stat-label">Years Covered</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">{{ site.data.stats.hosts | size }}</div>
+                <div class="stat-label">Hosts Featured</div>
+            </div>
+        </div>
+
+        <div class="hero-cta">
+            <a href="{{ '/episodes/' | relative_url }}" class="btn btn-primary">Browse Episodes</a>
+            <a href="{{ '/stats/' | relative_url }}" class="btn btn-secondary">View Statistics</a>
+        </div>
+    </div>
+</section>
+
+<section class="featured">
+    <div class="container">
+        <h2>Random Episode</h2>
+        {% assign random = site.time | date: "%s" | modulo: site.episodes.size %}
+        {% assign episode = site.episodes[random] %}
+
+        {% if episode %}
+        <div class="episode-card featured-episode">
+            <div class="episode-date">{{ episode.air_date | date: "%B %d, %Y" }}</div>
+            <h3 class="episode-title">{{ episode.title }}</h3>
+            <div class="episode-meta">
+                {% if episode.host %}
+                <span class="meta-item"><strong>Host:</strong> {{ episode.host }}</span>
+                {% endif %}
+                {% if episode.guest_host %}
+                <span class="meta-item"><strong>Guests:</strong> {{ episode.guest_host }}</span>
+                {% endif %}
+                {% if episode.era %}
+                <span class="meta-badge">{{ episode.era }}</span>
+                {% endif %}
+            </div>
+            <a href="{{ episode.url | relative_url }}" class="episode-link">View Episode →</a>
+        </div>
+        {% endif %}
+
+        <div class="featured-actions">
+            <button onclick="location.reload()" class="btn btn-secondary">🎲 Another Random Episode</button>
+        </div>
+    </div>
+</section>
+
+<section class="timeline-preview">
+    <div class="container">
+        <h2>Episodes by Year</h2>
+        <div class="year-grid">
+            {% for year_data in site.data.stats.years %}
+                {% assign year = year_data[0] %}
+                {% assign count = year_data[1] %}
+                <div class="year-card">
+                    <div class="year-number">{{ year }}</div>
+                    <div class="year-count">{{ count }} episodes</div>
+                    <a href="{{ '/episodes/' | relative_url }}?year={{ year }}" class="year-link">View →</a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="top-hosts">
+    <div class="container">
+        <h2>Top Hosts</h2>
+        <div class="hosts-list">
+            {% assign sorted_hosts = site.data.stats.hosts | sort_by: value | reverse %}
+            {% for host_data in sorted_hosts limit:5 %}
+                {% assign host = host_data[0] %}
+                {% assign count = host_data[1] %}
+                <div class="host-item">
+                    <div class="host-name">{{ host }}</div>
+                    <div class="host-count">{{ count }} episodes</div>
+                    <div class="host-bar" style="width: {{ count | times: 100 | divided_by: site.data.stats.total_episodes }}%"></div>
+                </div>
+            {% endfor %}
+        </div>
+        <a href="{{ '/stats/' | relative_url }}" class="btn btn-secondary">View All Statistics →</a>
+    </div>
+</section>
+
+<section class="about-preview">
+    <div class="container">
+        <h2>About This Project</h2>
+        <p>
+            This archive documents all {{ site.data.stats.total_episodes }} episodes of MTV's Headbangers Ball,
+            from the inaugural show on April 18, 1987, through the MTV2 revival era ending in 2012.
+        </p>
+        <p>
+            Every episode has been meticulously researched and cross-referenced from multiple sources to create
+            the most comprehensive database of this iconic heavy metal television program.
+        </p>
+        <a href="{{ '/about/' | relative_url }}" class="btn btn-secondary">Learn More →</a>
+    </div>
+</section>

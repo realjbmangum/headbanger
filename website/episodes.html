@@ -1,0 +1,192 @@
+---
+layout: default
+title: All Episodes
+---
+
+<section class="episodes-page">
+    <div class="container">
+        <h1>All Episodes</h1>
+        <p class="page-intro">Browse all {{ site.data.stats.total_episodes }} documented episodes of Headbangers Ball</p>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+            <input type="text" id="search" placeholder="Search episodes..." class="search-input">
+
+            <select id="year-filter" class="filter-select">
+                <option value="">All Years</option>
+                {% for year_data in site.data.stats.years %}
+                    <option value="{{ year_data[0] }}">{{ year_data[0] }}</option>
+                {% endfor %}
+            </select>
+
+            <select id="era-filter" class="filter-select">
+                <option value="">All Eras</option>
+                {% for era_data in site.data.stats.eras %}
+                    <option value="{{ era_data[0] }}">{{ era_data[0] }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <!-- Episodes Grid -->
+        <div class="episodes-grid" id="episodes-container">
+            {% assign sorted_episodes = site.episodes | sort: 'air_date' | reverse %}
+            {% for episode in sorted_episodes %}
+            <div class="episode-card"
+                 data-year="{{ episode.air_date | date: '%Y' }}"
+                 data-era="{{ episode.era }}"
+                 data-search="{{ episode.title | downcase }} {{ episode.host | downcase }} {{ episode.guest_host | downcase }}">
+
+                <div class="episode-date">
+                    {{ episode.air_date | date: "%B %d, %Y" }}
+                </div>
+
+                <h3 class="episode-title">
+                    <a href="{{ episode.url | relative_url }}">
+                        {% if episode.episode_number %}
+                            Episode {{ episode.episode_number }}
+                        {% else %}
+                            {{ episode.air_date | date: "%B %d, %Y" }}
+                        {% endif %}
+                    </a>
+                </h3>
+
+                <div class="episode-meta">
+                    {% if episode.host %}
+                        <span class="meta-item">
+                            <strong>Host:</strong> {{ episode.host }}
+                        </span>
+                    {% endif %}
+
+                    {% if episode.guest_host %}
+                        <span class="meta-item">
+                            <strong>Guests:</strong> {{ episode.guest_host | truncate: 50 }}
+                        </span>
+                    {% endif %}
+
+                    {% if episode.era %}
+                        <span class="meta-badge">{{ episode.era }}</span>
+                    {% endif %}
+
+                    {% if episode.theme %}
+                        <span class="meta-badge meta-badge-theme">{{ episode.theme }}</span>
+                    {% endif %}
+                </div>
+
+                <a href="{{ episode.url | relative_url }}" class="episode-link">
+                    View Details →
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- No Results Message -->
+        <div id="no-results" style="display: none; text-align: center; padding: 3rem 0;">
+            <p style="font-size: 1.25rem; color: var(--color-text-dim);">
+                No episodes found matching your criteria.
+            </p>
+        </div>
+    </div>
+</section>
+
+<style>
+.episodes-page {
+    padding: var(--spacing-xxl) 0;
+}
+
+.page-intro {
+    text-align: center;
+    color: var(--color-text-dim);
+    font-size: 1.125rem;
+    margin-bottom: var(--spacing-xl);
+}
+
+.filter-bar {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+    flex-wrap: wrap;
+}
+
+.search-input,
+.filter-select {
+    flex: 1;
+    min-width: 200px;
+    padding: var(--spacing-sm);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 1rem;
+}
+
+.search-input:focus,
+.filter-select:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+.episodes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.meta-badge-theme {
+    background: var(--color-secondary);
+    color: var(--color-text);
+}
+</style>
+
+<script>
+// Client-side filtering
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('search');
+    const yearFilter = document.getElementById('year-filter');
+    const eraFilter = document.getElementById('era-filter');
+    const episodesContainer = document.getElementById('episodes-container');
+    const noResults = document.getElementById('no-results');
+
+    function filterEpisodes() {
+        const searchTerm = searchInput.value.toLowerCase();
+        const selectedYear = yearFilter.value;
+        const selectedEra = eraFilter.value;
+
+        const episodes = episodesContainer.querySelectorAll('.episode-card');
+        let visibleCount = 0;
+
+        episodes.forEach(episode => {
+            const matchesSearch = episode.dataset.search.includes(searchTerm);
+            const matchesYear = !selectedYear || episode.dataset.year === selectedYear;
+            const matchesEra = !selectedEra || episode.dataset.era === selectedEra;
+
+            if (matchesSearch && matchesYear && matchesEra) {
+                episode.style.display = '';
+                visibleCount++;
+            } else {
+                episode.style.display = 'none';
+            }
+        });
+
+        // Show/hide no results message
+        if (visibleCount === 0) {
+            episodesContainer.style.display = 'none';
+            noResults.style.display = 'block';
+        } else {
+            episodesContainer.style.display = 'grid';
+            noResults.style.display = 'none';
+        }
+    }
+
+    searchInput.addEventListener('input', filterEpisodes);
+    yearFilter.addEventListener('change', filterEpisodes);
+    eraFilter.addEventListener('change', filterEpisodes);
+
+    // Check for URL params
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('year')) {
+        yearFilter.value = urlParams.get('year');
+        filterEpisodes();
+    }
+});
+</script>

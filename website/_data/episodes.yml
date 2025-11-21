@@ -1,0 +1,4112 @@
+episodes:
+- date: '1987-02-25'
+  era: Classic MTV
+  guest_host: ''
+  host: Dee Snider
+  id: HBB-1987-056
+  notes: Full 3-hour show with commercials
+  number: '1'
+  season: 1987-1988
+  theme: ''
+- date: '1987-03-26'
+  era: Classic MTV
+  guest_host: Great White
+  host: Kevin Seal
+  id: HBB-1987-085
+  notes: 86 minutes
+  number: '2'
+  season: 1987-1988
+  theme: ''
+- date: '1987-04-18'
+  era: Classic MTV
+  guest_host: Lemmy Kilmister & Phil Taylor (Motorhead)
+  host: Kevin Seal
+  id: HBB-1987-001
+  notes: Inaugural episode featuring Iron Maiden & Van Halen; First episode co-hosted
+    by Motorhead members
+  number: '3'
+  season: 1987-1988
+  theme: ''
+- date: '1987-04-23'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-113
+  notes: Week after premiere, before Leslie West (04-25)
+  number: '4'
+  season: 1987-1988
+  theme: ''
+- date: '1987-04-25'
+  era: Classic MTV
+  guest_host: Howard Stern
+  host: Leslie West
+  id: HBB-1987-008
+  notes: Leslie West hosted with Howard Stern; 119:48 runtime
+  number: '5'
+  season: 1987-1988
+  theme: ''
+- date: '1987-04-30'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-120
+  notes: Episode at end of first month
+  number: '6'
+  season: 1987-1988
+  theme: ''
+- date: '1987-05-02'
+  era: Classic MTV
+  guest_host: Autograph
+  host: Ozzy Osbourne
+  id: HBB-1987-015
+  notes: Ozzy hosted with Autograph; Multiple versions exist
+  number: '7'
+  season: 1987-1988
+  theme: ''
+- date: '1987-05-07'
+  era: Classic MTV
+  guest_host: ''
+  host: Kevin Seal
+  id: HBB-1987-127
+  notes: Episode between Ozzy (05-02) and Metal Church (05-16)
+  number: '8'
+  season: 1987-1988
+  theme: ''
+- date: '1987-05-09'
+  era: Classic MTV
+  guest_host: ''
+  host: Kevin Seal
+  id: HBB-1987-020
+  notes: Featured Twisted Sister, Deep Purple, and Savatage
+  number: '9'
+  season: 1987-1988
+  theme: ''
+- date: '1987-05-13'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-133
+  notes: Episode between Metal Church (05-16) and Wendy O (05-23)
+  number: '10'
+  season: 1987-1988
+  theme: ''
+- date: '1987-05-16'
+  era: Classic MTV
+  guest_host: ''
+  host: Craig Wells & Kirk Arrington (Metal Church)
+  id: HBB-1987-027
+  notes: Metal Church members hosted; Host segments only preserved
+  number: '11'
+  season: 1987-1988
+  theme: ''
+- date: '1987-05-23'
+  era: Classic MTV
+  guest_host: ''
+  host: Wendy O Williams
+  id: HBB-1987-034
+  notes: Wendy O Williams hosted; 115 minutes runtime
+  number: '12'
+  season: 1987-1988
+  theme: ''
+- date: '1987-05-28'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-148
+  notes: Episode between Wendy O (05-23) and Megadeth (05-30)
+  number: '13'
+  season: 1987-1988
+  theme: ''
+- date: '1987-05-30'
+  era: Classic MTV
+  guest_host: ''
+  host: Megadeth
+  id: HBB-1987-041
+  notes: Megadeth hosted; Incomplete recording 90 minutes
+  number: '14'
+  season: 1987-1988
+  theme: ''
+- date: '1987-06-04'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-155
+  notes: Episode after Megadeth (05-30), before Anthrax (06-13)
+  number: '15'
+  season: 1987-1988
+  theme: ''
+- date: '1987-06-06'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-157
+  notes: Episode between Megadeth and Anthrax
+  number: '16'
+  season: 1987-1988
+  theme: ''
+- date: '1987-06-11'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-162
+  notes: Episode between Megadeth and Anthrax (06-13)
+  number: '17'
+  season: 1987-1988
+  theme: ''
+- date: '1987-06-13'
+  era: Classic MTV
+  guest_host: ''
+  host: Anthrax
+  id: HBB-1987-057
+  notes: Anthrax hosted; Host segments and video only
+  number: '18'
+  season: 1987-1988
+  theme: ''
+- date: '1987-06-19'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-169
+  notes: Episode between Anthrax (06-13) and Ace Frehley (06-28)
+  number: '19'
+  season: 1987-1988
+  theme: ''
+- date: '1987-06-20'
+  era: Classic MTV
+  guest_host: Mike Dwarf & Russ Dwarf (Killer Dwarfs)
+  host: Rob Halford (Judas Priest)
+  id: HBB-1987-064
+  notes: Judas Priest hosted episode
+  number: '20'
+  season: 1987-1988
+  theme: ''
+- date: '1987-06-27'
+  era: Classic MTV
+  guest_host: ''
+  host: Frehley's Comet
+  id: HBB-1987-071
+  notes: Band-hosted episode
+  number: '21'
+  season: 1987-1988
+  theme: ''
+- date: '1987-06-28'
+  era: Classic MTV
+  guest_host: Helloween
+  host: Ace Frehley
+  id: HBB-1987-179
+  notes: 118 minutes
+  number: '22'
+  season: 1987-1988
+  theme: ''
+- date: '1987-07-03'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-185
+  notes: Episode day before July 4 Downtown Julie Brown episode
+  number: '23'
+  season: 1987-1988
+  theme: ''
+- date: '1987-07-04'
+  era: Classic MTV
+  guest_host: ''
+  host: Downtown Julie Brown
+  id: HBB-1987-078
+  notes: July 4th episode hosted by MTV VJ Downtown Julie Brown
+  number: '24'
+  season: 1987-1988
+  theme: ''
+- date: '1987-07-11'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-192
+  notes: Episode between July 4 and July 25
+  number: '25'
+  season: 1987-1988
+  theme: ''
+- date: '1987-07-18'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-199
+  notes: Episode between July 11 and July 25
+  number: '26'
+  season: 1987-1988
+  theme: ''
+- date: '1987-07-25'
+  era: Classic MTV
+  guest_host: ''
+  host: Dee Snider
+  id: HBB-1987-092
+  notes: Dee Snider (Twisted Sister) hosted
+  number: '27'
+  season: 1987-1988
+  theme: ''
+- date: '1987-08-01'
+  era: Classic MTV
+  guest_host: Manowar
+  host: Kevin Seal
+  id: HBB-1987-213
+  notes: Kevin Seal with Manowar
+  number: '28'
+  season: 1987-1988
+  theme: ''
+- date: '1987-08-07'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-206
+  notes: Episode between Aug 1 Manowar and Aug 8 Dio
+  number: '29'
+  season: 1987-1988
+  theme: ''
+- date: '1987-08-08'
+  era: Classic MTV
+  guest_host: Ron Keel
+  host: Ronnie James Dio
+  id: HBB-1987-211
+  notes: Ronnie James Dio hosted with Ron Keel; Multiple versions exist
+  number: '30'
+  season: 1987-1988
+  theme: ''
+- date: '1987-08-15'
+  era: Classic MTV
+  guest_host: ''
+  host: King Diamond
+  id: HBB-1987-218
+  notes: King Diamond hosted; 113:16 runtime (different from Sept 5 episode)
+  number: '31'
+  season: 1987-1988
+  theme: ''
+- date: '1987-08-22'
+  era: Classic MTV
+  guest_host: Jack Russell & Michael Lardie (Great White)
+  host: Kevin Seal
+  id: HBB-1987-235
+  notes: Archived on archive.org
+  number: '32'
+  season: 1987-1988
+  theme: ''
+- date: '1987-08-29'
+  era: Classic MTV
+  guest_host: ''
+  host: Blackie Lawless (W.A.S.P.)
+  id: HBB-1987-242
+  notes: Blackie Lawless of W.A.S.P. hosted
+  number: '33'
+  season: 1987-1988
+  theme: ''
+- date: '1987-09-05'
+  era: Classic MTV
+  guest_host: ''
+  host: King Diamond
+  id: HBB-1987-249
+  notes: Two-hour special hosted by King Diamond; Featured 24 music videos including
+    Great White, Ozzy, Aerosmith, Def Leppard, KISS, Motorhead, Twisted Sister, Dio,
+    Iron Maiden, Guns N' Roses, Motley Crue
+  number: '34'
+  season: 1987-1988
+  theme: ''
+- date: '1987-09-05'
+  era: Classic MTV
+  guest_host: ''
+  host: King Diamond
+  id: HBB-1987-248
+  notes: King Diamond episode (different from 09-05 archived version)
+  number: '35'
+  season: 1987-1988
+  theme: ''
+- date: '1987-09-12'
+  era: Classic MTV
+  guest_host: ''
+  host: Grim Reaper
+  id: HBB-1987-256
+  notes: Grim Reaper hosted; Featured Kiss "Crazy Nights" world premiere; 112 minutes
+  number: '36'
+  season: 1987-1988
+  theme: ''
+- date: '1987-09-19'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-262
+  notes: Episode between Grim Reaper (09-12) and Lizzy Borden (09-26)
+  number: '37'
+  season: 1987-1988
+  theme: ''
+- date: '1987-09-26'
+  era: Classic MTV
+  guest_host: ''
+  host: Lizzy Borden & Lips (Anvil)
+  id: HBB-1987-270
+  notes: Co-hosted by Lizzy Borden and Lips from Anvil; Multiple incomplete versions
+  number: '38'
+  season: 1987-1988
+  theme: ''
+- date: '1987-10-03'
+  era: Classic MTV
+  guest_host: Motley Crue
+  host: ''
+  id: HBB-1987-276
+  notes: 73 minutes; Cruise special
+  number: '39'
+  season: 1987-1988
+  theme: Motley Cruise To Nowhere
+- date: '1987-10-10'
+  era: Classic MTV
+  guest_host: ''
+  host: Kane Roberts
+  id: HBB-1987-284
+  notes: Kane Roberts hosted; 91:48 runtime
+  number: '40'
+  season: 1987-1988
+  theme: ''
+- date: '1987-10-17'
+  era: Classic MTV
+  guest_host: ''
+  host: Doro Pesch
+  id: HBB-1987-291
+  notes: Doro Pesch (Warlock) hosted; 111 minutes
+  number: '41'
+  season: 1987-1988
+  theme: ''
+- date: '1987-10-24'
+  era: Classic MTV
+  guest_host: Guns N' Roses
+  host: Smash
+  id: HBB-1987-297
+  notes: Special guest hosts Guns N' Roses
+  number: '42'
+  season: 1987-1988
+  theme: ''
+- date: '1987-10-31'
+  era: Classic MTV
+  guest_host: ''
+  host: Kevin Seal
+  id: HBB-1987-331
+  notes: Featured concert footage of Helloween, Armored Saint, and Grim Reaper
+  number: '43'
+  season: 1987-1988
+  theme: Halloween Special
+- date: '1987-10-31'
+  era: Classic MTV
+  guest_host: ''
+  host: Helloween, Armored Saint, Grim Reaper
+  id: HBB-1987-304
+  notes: Concert only; 98 minutes
+  number: '44'
+  season: 1987-1988
+  theme: Halloween Concert Special
+- date: '1987-11-07'
+  era: Classic MTV
+  guest_host: Lemmy & Wurzel (Motorhead)
+  host: Kevin Seal
+  id: HBB-1987-312
+  notes: Kevin Seal with Motorhead members Lemmy and Wurzel
+  number: '45'
+  season: 1987-1988
+  theme: ''
+- date: '1987-11-14'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-318
+  notes: Episode between Motorhead (11-07) and Savatage (11-21)
+  number: '46'
+  season: 1987-1988
+  theme: ''
+- date: '1987-11-21'
+  era: Classic MTV
+  guest_host: ''
+  host: Savatage
+  id: HBB-1987-326
+  notes: Savatage hosted; Incomplete 1 hour recording
+  number: '47'
+  season: 1987-1988
+  theme: ''
+- date: '1987-11-28'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-332
+  notes: Episode between Savatage (11-21) and MSG (12-05)
+  number: '48'
+  season: 1987-1988
+  theme: ''
+- date: '1987-12-05'
+  era: Classic MTV
+  guest_host: Robin McCauley & Michael Schenker (McCauley Schenker Group)
+  host: Unknown
+  id: HBB-1987-339
+  notes: Hosted by MSG members
+  number: '49'
+  season: 1987-1988
+  theme: ''
+- date: '1987-12-12'
+  era: Classic MTV
+  guest_host: White Lion
+  host: Kevin Seal
+  id: HBB-1987-346
+  notes: Kevin Seal hosted with White Lion
+  number: '50'
+  season: 1987-1988
+  theme: ''
+- date: '1987-12-19'
+  era: Classic MTV
+  guest_host: Ozzy Osbourne, Zakk Wylde
+  host: Kevin Seal
+  id: HBB-1987-353
+  notes: Kevin Seal with Ozzy & Zakk Wylde
+  number: '51'
+  season: 1987-1988
+  theme: ''
+- date: '1987-12-26'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1987-360
+  notes: Holiday week episode
+  number: '52'
+  season: 1987-1988
+  theme: Holiday Episode
+- date: '1988-01-09'
+  era: Classic MTV
+  guest_host: ''
+  host: Ron Keel
+  id: HBB-1988-010
+  notes: Ron Keel hosted; 95 minutes, bonus version 120:52
+  number: '53'
+  season: 1987-1988
+  theme: ''
+- date: '1988-01-16'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1988-016
+  notes: Episode between Ron Keel (01-09) and Kevin Seal (01-30)
+  number: '54'
+  season: 1987-1988
+  theme: ''
+- date: '1988-01-23'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1988-023
+  notes: Episode between Ron Keel (01-09) and Ron Keel (01-25)
+  number: '55'
+  season: 1987-1988
+  theme: ''
+- date: '1988-01-25'
+  era: Classic MTV
+  guest_host: ''
+  host: Ron Keel
+  id: HBB-1988-025
+  notes: Full 3-hour show with commercials
+  number: '56'
+  season: 1987-1988
+  theme: ''
+- date: '1988-01-30'
+  era: Classic MTV
+  guest_host: ''
+  host: Kevin Seal
+  id: HBB-1988-031
+  notes: Kevin Seal hosted
+  number: '57'
+  season: 1987-1988
+  theme: ''
+- date: '1988-01-30'
+  era: Classic MTV
+  guest_host: ''
+  host: Kevin Seal
+  id: HBB-1988-030
+  notes: 173 minutes; 352x480 resolution
+  number: '58'
+  season: 1987-1988
+  theme: ''
+- date: '1988-02-06'
+  era: Classic MTV
+  guest_host: ''
+  host: Anthrax
+  id: HBB-1988-038
+  notes: Anthrax hosted; Incomplete 90 minutes
+  number: '59'
+  season: 1987-1988
+  theme: ''
+- date: '1988-02-06'
+  era: Classic MTV
+  guest_host: ''
+  host: Kevin Seal
+  id: HBB-1988-037
+  notes: 173 minutes; 352x480 resolution
+  number: '60'
+  season: 1987-1988
+  theme: ''
+- date: '1988-02-13'
+  era: Classic MTV
+  guest_host: ''
+  host: Lita Ford
+  id: HBB-1988-045
+  notes: Lita Ford hosted
+  number: '61'
+  season: 1987-1988
+  theme: ''
+- date: '1988-02-13'
+  era: Classic MTV
+  guest_host: ''
+  host: Anthrax
+  id: HBB-1988-044
+  notes: 93 minutes
+  number: '62'
+  season: 1987-1988
+  theme: ''
+- date: '1988-02-20'
+  era: Classic MTV
+  guest_host: ''
+  host: Kevin Seal
+  id: HBB-1988-052
+  notes: Kevin Seal hosted; Incomplete 122 minutes
+  number: '63'
+  season: 1987-1988
+  theme: ''
+- date: '1988-02-20'
+  era: Classic MTV
+  guest_host: ''
+  host: Lita Ford
+  id: HBB-1988-051
+  notes: 118 minutes
+  number: '64'
+  season: 1987-1988
+  theme: ''
+- date: '1988-02-27'
+  era: Classic MTV
+  guest_host: ''
+  host: Kevin Seal
+  id: HBB-1988-058
+  notes: 122 minutes
+  number: '65'
+  season: 1987-1988
+  theme: ''
+- date: '1988-03-05'
+  era: Classic MTV
+  guest_host: ''
+  host: DIO
+  id: HBB-1988-066
+  notes: DIO MTV concert from San Antonio, TX
+  number: '66'
+  season: 1987-1988
+  theme: MTV Concert Special
+- date: '1988-03-26'
+  era: Classic MTV
+  guest_host: L.A. Guns
+  host: Kevin Seal
+  id: HBB-1988-087
+  notes: Kevin Seal with L.A. Guns; 129:35
+  number: '67'
+  season: 1987-1988
+  theme: ''
+- date: '1988-04-02'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1988-093
+  notes: Episode between L.A. Guns (03-26) and Zodiac Mindwarp (04-23)
+  number: '68'
+  season: 1987-1988
+  theme: ''
+- date: '1988-04-09'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1988-100
+  notes: Episode in April gap
+  number: '69'
+  season: 1987-1988
+  theme: ''
+- date: '1988-04-16'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1988-107
+  notes: Episode in April gap before Zodiac (04-23)
+  number: '70'
+  season: 1987-1988
+  theme: ''
+- date: '1988-04-23'
+  era: Classic MTV
+  guest_host: ''
+  host: Zodiac Mindwarp
+  id: HBB-1988-115
+  notes: Zodiac Mindwarp hosted; 3 DVDs
+  number: '71'
+  season: 1987-1988
+  theme: ''
+- date: '1988-04-30'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1988-120
+  notes: Episode at end of April
+  number: '72'
+  season: 1987-1988
+  theme: ''
+- date: '1988-05-07'
+  era: Classic MTV
+  guest_host: ''
+  host: Bruce Dickinson
+  id: HBB-1988-129
+  notes: Bruce Dickinson (Iron Maiden) hosted; 118 minutes
+  number: '73'
+  season: 1988-1989
+  theme: ''
+- date: '1988-05-14'
+  era: Classic MTV
+  guest_host: ''
+  host: Guns N' Roses
+  id: HBB-1988-134
+  notes: 117 minutes; GUNS N' ROSES HOST! Two DVD XP Mode
+  number: '74'
+  season: 1988-1989
+  theme: ''
+- date: '1988-05-21'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1988-141
+  notes: Episode between Guns N' Roses (05-14) and Adam Curry Rock Blocks (05-28)
+  number: '75'
+  season: 1988-1989
+  theme: ''
+- date: '1988-05-28'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1988-150
+  notes: Adam Curry hosts Rock Blocks; 3 DVDs
+  number: '76'
+  season: 1988-1989
+  theme: Rock Blocks
+- date: '1988-06-04'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1988-155
+  notes: Episode between May and Sam Kinison (06-11)
+  number: '77'
+  season: 1988-1989
+  theme: ''
+- date: '1988-06-11'
+  era: Classic MTV
+  guest_host: ''
+  host: Sam Kinison
+  id: HBB-1988-164
+  notes: Sam Kinison hosted; 160 minutes
+  number: '78'
+  season: 1988-1989
+  theme: ''
+- date: '1988-06-18'
+  era: Classic MTV
+  guest_host: Dave Mustaine, Jeff Young (Megadeth)
+  host: Mark Goodman
+  id: HBB-1988-169
+  notes: Mark Goodman with Megadeth members
+  number: '79'
+  season: 1988-1989
+  theme: ''
+- date: '1988-06-25'
+  era: Classic MTV
+  guest_host: ''
+  host: Frehley's Comet
+  id: HBB-1988-178
+  notes: Frehley's Comet hosted
+  number: '80'
+  season: 1988-1989
+  theme: ''
+- date: '1988-07-02'
+  era: Classic MTV
+  guest_host: ''
+  host: Mark Goodman
+  id: HBB-1988-183
+  notes: Mark Goodman hosted
+  number: '81'
+  season: 1988-1989
+  theme: ''
+- date: '1988-07-09'
+  era: Classic MTV
+  guest_host: Joe Satriani
+  host: Adam Curry
+  id: HBB-1988-192
+  notes: Adam Curry with Joe Satriani; 162:29
+  number: '82'
+  season: 1988-1989
+  theme: ''
+- date: '1988-07-16'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1988-197
+  notes: Adam Curry episode between Joe Satriani (07-09) and Vinnie Vincent (07-23)
+  number: '83'
+  season: 1988-1989
+  theme: ''
+- date: '1988-07-23'
+  era: Classic MTV
+  guest_host: ''
+  host: Vinnie Vincent
+  id: HBB-1988-205
+  notes: Vinnie Vincent hosted; 140:37
+  number: '84'
+  season: 1988-1989
+  theme: ''
+- date: '1988-07-30'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1988-212
+  notes: Adam Curry hosted; 178:44
+  number: '85'
+  season: 1988-1989
+  theme: ''
+- date: '1988-08-13'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1988-226
+  notes: Full episode archived
+  number: '86'
+  season: 1987-1988
+  theme: ''
+- date: '1988-08-13'
+  era: Classic MTV
+  guest_host: ''
+  host: Rob Halford
+  id: HBB-1988-219
+  notes: Rob Halford (Judas Priest) hosted; 239:26
+  number: '87'
+  season: 1988-1989
+  theme: ''
+- date: '1988-08-20'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1988-233
+  notes: Full episode archived
+  number: '88'
+  season: 1988-1989
+  theme: ''
+- date: '1988-08-20'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1988-232
+  notes: 180:07; Partial Freddy Krueger preceding; Also exists as 200:55 with bonus
+    MTV clips
+  number: '89'
+  season: 1988-1989
+  theme: ''
+- date: '1988-08-25'
+  era: Classic MTV
+  guest_host: Frehley's Comet
+  host: Adam Curry
+  id: HBB-1988-237
+  notes: Full 3-hour show with commercials
+  number: '90'
+  season: 1988-1989
+  theme: ''
+- date: '1988-08-27'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1988-227
+  notes: Megaforce Records 5th Anniversary special; 179 minutes
+  number: '91'
+  season: 1988-1989
+  theme: Megaforce 5th Anniversary
+- date: '1988-09-03'
+  era: Classic MTV
+  guest_host: Axl Rose & Slash (Guns N' Roses)
+  host: Adam Curry
+  id: HBB-1988-247
+  notes: Special guest hosts from Guns N' Roses
+  number: '92'
+  season: 1988-1989
+  theme: ''
+- date: '1988-09-03'
+  era: Classic MTV
+  guest_host: ''
+  host: Axl Rose & Slash (Guns N' Roses)
+  id: HBB-1988-246
+  notes: LEGENDARY EPISODE! Guns N' Roses at their peak
+  number: '93'
+  season: 1988-1989
+  theme: ''
+- date: '1988-09-10'
+  era: Classic MTV
+  guest_host: ''
+  host: Scorpions
+  id: HBB-1988-253
+  notes: 113 minutes
+  number: '94'
+  season: 1988-1989
+  theme: On The Road
+- date: '1988-09-17'
+  era: Classic MTV
+  guest_host: L.A. Guns, Lizzy Borden, Nuclear Assault
+  host: Adam Curry
+  id: HBB-1988-241
+  notes: Adam Curry with L.A. Guns, Lizzy Borden, Nuclear Assault
+  number: '95'
+  season: 1988-1989
+  theme: ''
+- date: '1988-09-24'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1988-267
+  notes: 178 minutes; Three DVD XP Mode
+  number: '96'
+  season: 1988-1989
+  theme: Metal Blocks
+- date: '1988-10-08'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1988-283
+  notes: Foundations Forum and Rip Magazine party; 3 hours
+  number: '97'
+  season: 1988-1989
+  theme: Foundations Forum/Rip Party
+- date: '1988-10-15'
+  era: Classic MTV
+  guest_host: Yngwie J. Malmsteen
+  host: Adam Curry
+  id: HBB-1988-289
+  notes: Special guest host Yngwie Malmsteen
+  number: '98'
+  season: 1988-1989
+  theme: ''
+- date: '1988-10-15'
+  era: Classic MTV
+  guest_host: ''
+  host: Yngwie Malmsteen
+  id: HBB-1988-288
+  notes: First 2 hours only
+  number: '99'
+  season: 1988-1989
+  theme: ''
+- date: '1988-10-31'
+  era: Classic MTV
+  guest_host: ''
+  host: Sam Kinison
+  id: HBB-1988-297
+  notes: Sam Kinison Halloween Special; Incomplete 80 minutes
+  number: '100'
+  season: 1988-1989
+  theme: Halloween Special
+- date: '1988-12-03'
+  era: Classic MTV
+  guest_host: Testament, Jetboy
+  host: Adam Curry
+  id: HBB-1988-337
+  notes: 122 minutes
+  number: '101'
+  season: 1988-1989
+  theme: ''
+- date: '1988-12-10'
+  era: Classic MTV
+  guest_host: Chris Impellitteri
+  host: Adam Curry
+  id: HBB-1988-344
+  notes: 166 minutes; 352x480 resolution
+  number: '102'
+  season: 1988-1989
+  theme: ''
+- date: '1988-12-24'
+  era: Classic MTV
+  guest_host: Ozzy Osbourne & Zakk Wylde
+  host: Adam Curry
+  id: HBB-1988-089
+  notes: Special holiday episode
+  number: '103'
+  season: 1987-1988
+  theme: Christmas Special
+- date: '1988-12-24'
+  era: Classic MTV
+  guest_host: Adam Curry
+  host: Ozzy Osbourne & Zakk Wylde
+  id: HBB-1988-358
+  notes: Christmas special! 157:03; Also exists as 4-hour version with Adam Curry
+    following hour
+  number: '104'
+  season: 1988-1989
+  theme: Headbangers Christmas
+- date: '1989-01-07'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1989-008
+  notes: Best of 1988 compilation; 177 minutes
+  number: '105'
+  season: 1988-1989
+  theme: Best Of 88
+- date: '1989-01-14'
+  era: Classic MTV
+  guest_host: ''
+  host: Kix
+  id: HBB-1989-015
+  notes: Kix band hosted; 179 minutes
+  number: '106'
+  season: 1988-1989
+  theme: ''
+- date: '1989-01-18'
+  era: Classic MTV
+  guest_host: Queensrÿche
+  host: ''
+  id: HBB-1989-018
+  notes: Full 3-hour show with commercials
+  number: '107'
+  season: 1988-1989
+  theme: ''
+- date: '1989-01-21'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1989-021
+  notes: Episode between Queensryche (01-18) and Bullet Boys (01-28)
+  number: '108'
+  season: 1988-1989
+  theme: ''
+- date: '1989-01-28'
+  era: Classic MTV
+  guest_host: ''
+  host: Bullet Boys
+  id: HBB-1989-029
+  notes: Bullet Boys hosted
+  number: '109'
+  season: 1988-1989
+  theme: ''
+- date: '1989-02-04'
+  era: Classic MTV
+  guest_host: ''
+  host: Anthrax
+  id: HBB-1989-036
+  notes: 'Anthrax: In the Studio; 179 minutes'
+  number: '110'
+  season: 1988-1989
+  theme: In the Studio
+- date: '1989-02-10'
+  era: Classic MTV
+  guest_host: Alice In Chains, Sepultura
+  host: Riki Rachtman
+  id: HBB-1989-041
+  notes: DVD quality - 26 rare videos, no commercials; Early Riki appearance!
+  number: '111'
+  season: 1988-1989
+  theme: ''
+- date: '1989-02-11'
+  era: Classic MTV
+  guest_host: Danzig
+  host: Adam Curry
+  id: HBB-1989-043
+  notes: Adam Curry with Danzig; 3 hours
+  number: '112'
+  season: 1988-1989
+  theme: ''
+- date: '1989-02-18'
+  era: Classic MTV
+  guest_host: ''
+  host: Queensryche
+  id: HBB-1989-050
+  notes: Queensryche hosted; 148 minutes
+  number: '113'
+  season: 1988-1989
+  theme: ''
+- date: '1989-02-25'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1989-057
+  notes: Rock Blocks special; 3 hours
+  number: '114'
+  season: 1988-1989
+  theme: Rock Blocks Edition
+- date: '1989-03-11'
+  era: Classic MTV
+  guest_host: Lita Ford
+  host: Adam Curry
+  id: HBB-1989-071
+  notes: Lita Ford concert; 179 minutes
+  number: '115'
+  season: 1988-1989
+  theme: ''
+- date: '1989-03-15'
+  era: Classic MTV
+  guest_host: XYZ, Icon
+  host: Riki Rachtman
+  id: HBB-1989-074
+  notes: Full 3-hour show with commercials; Early Riki appearance
+  number: '116'
+  season: 1988-1989
+  theme: ''
+- date: '1989-03-18'
+  era: Classic MTV
+  guest_host: Ace Frehley & Skid Row
+  host: Adam Curry
+  id: HBB-1989-078
+  notes: With Ace Frehley and Skid Row; 3 hours
+  number: '117'
+  season: 1988-1989
+  theme: ''
+- date: '1989-03-25'
+  era: Classic MTV
+  guest_host: Exodus & Celtic Frost
+  host: Adam Curry
+  id: HBB-1989-085
+  notes: With Exodus and Celtic Frost; 3 hours
+  number: '118'
+  season: 1988-1989
+  theme: ''
+- date: '1989-04-01'
+  era: Classic MTV
+  guest_host: Kingdom Come, Warrant, Extreme
+  host: Adam Curry
+  id: HBB-1989-092
+  notes: With Kingdom Come, Warrant, Extreme; 2.5 hours
+  number: '119'
+  season: 1988-1989
+  theme: ''
+- date: '1989-04-08'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1989-099
+  notes: Great White Party special
+  number: '120'
+  season: 1988-1989
+  theme: Great White Party
+- date: '1989-04-15'
+  era: Classic MTV
+  guest_host: Kix
+  host: Ratt
+  id: HBB-1989-106
+  notes: Ratt with Kix; 3 hours
+  number: '121'
+  season: 1989-1990
+  theme: ''
+- date: '1989-04-15'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1989-105
+  notes: Full 3-hour show; Early Riki episode
+  number: '122'
+  season: 1989-1990
+  theme: The L.A. Report
+- date: '1989-04-22'
+  era: Classic MTV
+  guest_host: W.A.S.P. & M.O.D.
+  host: Adam Curry & Downtown Julie Brown
+  id: HBB-1989-113
+  notes: Co-hosted with Downtown Julie Brown; W.A.S.P. and M.O.D.; 3 hours
+  number: '123'
+  season: 1989-1990
+  theme: ''
+- date: '1989-04-29'
+  era: Classic MTV
+  guest_host: Riki Rachtman
+  host: Adam Curry
+  id: HBB-1989-120
+  notes: With Riki Rachtman's LA scene report; 3 hours
+  number: '124'
+  season: 1989-1990
+  theme: ''
+- date: '1989-04-29'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1989-119
+  notes: Full 3-hour show
+  number: '125'
+  season: 1989-1990
+  theme: The L.A. Report
+- date: '1989-05-06'
+  era: Classic MTV
+  guest_host: ''
+  host: Tony Iommi & Cozy Powell
+  id: HBB-1989-127
+  notes: Black Sabbath members hosted
+  number: '126'
+  season: 1989-1990
+  theme: ''
+- date: '1989-05-06'
+  era: Classic MTV
+  guest_host: Black Sabbath
+  host: Adam Curry
+  id: HBB-1989-126
+  notes: Full 3-hour show with commercials
+  number: '127'
+  season: 1989-1990
+  theme: ''
+- date: '1989-05-13'
+  era: Classic MTV
+  guest_host: Metal Church, Exodus
+  host: Adam Curry
+  id: HBB-1989-133
+  notes: 179 minutes; Three DVD XP Mode
+  number: '128'
+  season: 1989-1990
+  theme: ''
+- date: '1989-05-27'
+  era: Classic MTV
+  guest_host: Lonn Friend & Scott Ian
+  host: Adam Curry
+  id: HBB-1989-110
+  notes: Special format episode
+  number: '129'
+  season: 1988-1989
+  theme: Rock Block Edition
+- date: '1989-05-27'
+  era: Classic MTV
+  guest_host: Lonn Friend, Scott Ian
+  host: Adam Curry
+  id: HBB-1989-147
+  notes: 180 minutes; Lonn Friend & Scott Ian Rock Blocks; 352x480
+  number: '130'
+  season: 1989-1990
+  theme: Rock Blocks
+- date: '1989-06-01'
+  era: Classic MTV
+  guest_host: Slayer, Megadeth, Alice In Chains
+  host: Riki Rachtman
+  id: HBB-1989-152
+  notes: DVD quality - 23 rare videos, no commercials; EPIC lineup!
+  number: '131'
+  season: 1989-1990
+  theme: ''
+- date: '1989-06-10'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1989-162
+  notes: ''
+  number: '132'
+  season: 1989-1990
+  theme: ''
+- date: '1989-07-08'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1989-190
+  notes: 200:59 with bonus clips
+  number: '133'
+  season: 1989-1990
+  theme: ''
+- date: '1989-07-08'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1989-189
+  notes: 201 minutes; From Metal Video Collector list
+  number: '134'
+  season: 1989-1990
+  theme: Hit Parader's Heavy Metal Meltdown
+- date: '1989-07-15'
+  era: Classic MTV
+  guest_host: Nitro
+  host: Adam Curry
+  id: HBB-1989-197
+  notes: With Nitro; 3 hours
+  number: '135'
+  season: 1989-1990
+  theme: ''
+- date: '1989-07-29'
+  era: Classic MTV
+  guest_host: ''
+  host: Alice Cooper
+  id: HBB-1989-211
+  notes: Alice Cooper promoting Trash album; 2 hours
+  number: '136'
+  season: 1989-1990
+  theme: ''
+- date: '1989-08-05'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1989-218
+  notes: 175:11 complete
+  number: '137'
+  season: 1989-1990
+  theme: ''
+- date: '1989-08-05'
+  era: Classic MTV
+  guest_host: GWAR
+  host: Adam Curry
+  id: HBB-1989-217
+  notes: 180 minutes; With GWAR; 352x480
+  number: '138'
+  season: 1989-1990
+  theme: ''
+- date: '1989-08-12'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1989-225
+  notes: Historic Moscow Music Peace Festival coverage; 178 minutes
+  number: '139'
+  season: 1989-1990
+  theme: Moscow Music Peace Festival
+- date: '1989-08-19'
+  era: Classic MTV
+  guest_host: Steve Stevens
+  host: Adam Curry
+  id: HBB-1989-232
+  notes: With Steve Stevens (Atomic Playboys); 178:08
+  number: '140'
+  season: 1989-1990
+  theme: ''
+- date: '1989-08-26'
+  era: Classic MTV
+  guest_host: ''
+  host: Bonham
+  id: HBB-1989-239
+  notes: Bonham hosted
+  number: '141'
+  season: 1989-1990
+  theme: ''
+- date: '1989-09-09'
+  era: Classic MTV
+  guest_host: Dirty Looks & Kreator
+  host: Adam Curry
+  id: HBB-1989-253
+  notes: With Dirty Looks and Kreator; 3 hours
+  number: '142'
+  season: 1989-1990
+  theme: ''
+- date: '1989-09-30'
+  era: Classic MTV
+  guest_host: Faster Pussycat
+  host: Adam Curry
+  id: HBB-1989-274
+  notes: With Faster Pussycat and forum highlights
+  number: '143'
+  season: 1989-1990
+  theme: ''
+- date: '1989-10-07'
+  era: Classic MTV
+  guest_host: Bang Tango
+  host: Adam Curry
+  id: HBB-1989-281
+  notes: With Bang Tango
+  number: '144'
+  season: 1989-1990
+  theme: ''
+- date: '1989-10-07'
+  era: Classic MTV
+  guest_host: Bang Tango
+  host: ''
+  id: HBB-1989-280
+  notes: Full 3-hour show with commercials
+  number: '145'
+  season: 1989-1990
+  theme: ''
+- date: '1989-10-14'
+  era: Classic MTV
+  guest_host: Michael Monroe & Dangerous Toys
+  host: Adam Curry
+  id: HBB-1989-288
+  notes: With Michael Monroe and Dangerous Toys
+  number: '146'
+  season: 1989-1990
+  theme: ''
+- date: '1989-10-21'
+  era: Classic MTV
+  guest_host: ''
+  host: Queensryche
+  id: HBB-1989-295
+  notes: Queensryche hosted
+  number: '147'
+  season: 1989-1990
+  theme: ''
+- date: '1989-10-28'
+  era: Classic MTV
+  guest_host: Wolfsbane, EZO, Vain
+  host: Adam Curry
+  id: HBB-1989-302
+  notes: With Wolfsbane, EZO, and Vain
+  number: '148'
+  season: 1989-1990
+  theme: ''
+- date: '1989-10-31'
+  era: Classic MTV
+  guest_host: ''
+  host: Alice Cooper
+  id: HBB-1989-305
+  notes: Alice Cooper Halloween Special; 2 hours
+  number: '149'
+  season: 1989-1990
+  theme: Halloween Special
+- date: '1989-11-04'
+  era: Classic MTV
+  guest_host: Riki Rachtman
+  host: Adam Curry
+  id: HBB-1989-309
+  notes: Riki Rachtman at the Cathouse; 181 minutes
+  number: '150'
+  season: 1989-1990
+  theme: ''
+- date: '1989-11-11'
+  era: Classic MTV
+  guest_host: ''
+  host: Michael Monroe & Jon Sierra
+  id: HBB-1989-316
+  notes: Michael Monroe and Jon Sierra co-hosted; 3 hours
+  number: '151'
+  season: 1989-1990
+  theme: ''
+- date: '1989-11-18'
+  era: Classic MTV
+  guest_host: Testament, Britny Fox, Overkill, Shotgun Messiah
+  host: Adam Curry
+  id: HBB-1989-323
+  notes: With Testament, Britny Fox, Overkill, Shotgun Messiah; 3 hours
+  number: '152'
+  season: 1989-1990
+  theme: ''
+- date: '1989-12-02'
+  era: Classic MTV
+  guest_host: Pretty Boy Floyd
+  host: Adam Curry
+  id: HBB-1989-337
+  notes: With Pretty Boy Floyd
+  number: '153'
+  season: 1989-1990
+  theme: ''
+- date: '1989-12-09'
+  era: Classic MTV
+  guest_host: Fates Warning
+  host: Adam Curry
+  id: HBB-1989-344
+  notes: 80s Request Weekend with Fates Warning; 2 hours
+  number: '154'
+  season: 1989-1990
+  theme: 80s Request Weekend
+- date: '1989-12-28'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1989-363
+  notes: Special end-of-year episode
+  number: '155'
+  season: 1988-1989
+  theme: End of Year Episode
+- date: '1989-12-30'
+  era: Classic MTV
+  guest_host: ''
+  host: Adam Curry
+  id: HBB-1989-364
+  notes: Final episode hosted by Adam Curry before Riki Rachtman took over
+  number: '156'
+  season: 1988-1989
+  theme: Adam's Last Show
+- date: '1990-01-01'
+  era: Classic MTV
+  guest_host: Anthrax
+  host: Riki Rachtman
+  id: HBB-1990-001
+  notes: Riki's official first show as host; Full 3 hours with commercials
+  number: '157'
+  season: 1989-1990
+  theme: ''
+- date: '1990-01-06'
+  era: Classic MTV
+  guest_host: Anthrax
+  host: Riki Rachtman
+  id: HBB-1990-006
+  notes: First show
+  number: '158'
+  season: 1989-1990
+  theme: ''
+- date: '1990-01-13'
+  era: Classic MTV
+  guest_host: MSG
+  host: Riki Rachtman
+  id: HBB-1990-013
+  notes: Incomplete; 128 minutes
+  number: '159'
+  season: 1989-1990
+  theme: ''
+- date: '1990-01-20'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1990-020
+  notes: 3 hours
+  number: '160'
+  season: 1989-1990
+  theme: Crue Road Report
+- date: '1990-01-27'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1990-027
+  notes: 45 minutes
+  number: '161'
+  season: 1989-1990
+  theme: On The Road w/ Faith No More
+- date: '1990-02-03'
+  era: Classic MTV
+  guest_host: Gothic Slam, Britny Fox, Slaughter
+  host: Riki Rachtman
+  id: HBB-1990-034
+  notes: Appearances by Gothic Slam, Britny Fox & Slaughter
+  number: '162'
+  season: 1989-1990
+  theme: ''
+- date: '1990-02-10'
+  era: Classic MTV
+  guest_host: Great White, Havana Black
+  host: Riki Rachtman
+  id: HBB-1990-041
+  notes: Taped interviews with Great White & Havana Black
+  number: '163'
+  season: 1989-1990
+  theme: ''
+- date: '1990-02-17'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1990-048
+  notes: ''
+  number: '164'
+  season: 1989-1990
+  theme: ''
+- date: '1990-02-24'
+  era: Classic MTV
+  guest_host: Babylon A.D., D.R.I.
+  host: Riki Rachtman
+  id: HBB-1990-055
+  notes: Featured Babylon A.D. and D.R.I.
+  number: '165'
+  season: 1989-1990
+  theme: ''
+- date: '1990-03-03'
+  era: Classic MTV
+  guest_host: Nuclear Assault
+  host: ''
+  id: HBB-1990-062
+  notes: ''
+  number: '166'
+  season: 1989-1990
+  theme: ''
+- date: '1990-03-10'
+  era: Classic MTV
+  guest_host: XYZ, Icon
+  host: Riki Rachtman
+  id: HBB-1990-069
+  notes: XYZ & Icon performances
+  number: '167'
+  season: 1989-1990
+  theme: ''
+- date: '1990-03-17'
+  era: Classic MTV
+  guest_host: Bad Brains
+  host: Riki Rachtman
+  id: HBB-1990-076
+  notes: Bad Brains episode
+  number: '168'
+  season: 1989-1990
+  theme: ''
+- date: '1990-03-24'
+  era: Classic MTV
+  guest_host: Savatage
+  host: ''
+  id: HBB-1990-083
+  notes: ''
+  number: '169'
+  season: 1989-1990
+  theme: ''
+- date: '1990-03-31'
+  era: Classic MTV
+  guest_host: ''
+  host: Brian Wheat & Tommy Skeoch (Tesla)
+  id: HBB-1990-090
+  notes: 204 minutes
+  number: '170'
+  season: 1989-1990
+  theme: ''
+- date: '1990-04-07'
+  era: Classic MTV
+  guest_host: ''
+  host: Kiss
+  id: HBB-1990-097
+  notes: '3 hours; Rating: A'
+  number: '171'
+  season: 1990-1991
+  theme: ''
+- date: '1990-04-14'
+  era: Classic MTV
+  guest_host: Michael Monroe
+  host: Riki Rachtman
+  id: HBB-1990-104
+  notes: 3 hours
+  number: '172'
+  season: 1990-1991
+  theme: Not Fakin' It In Japan
+- date: '1990-04-21'
+  era: Classic MTV
+  guest_host: ''
+  host: Michael Monroe
+  id: HBB-1990-111
+  notes: '166:55'
+  number: '173'
+  season: 1990-1991
+  theme: In Japan
+- date: '1990-04-28'
+  era: Classic MTV
+  guest_host: Mike Muir (Suicidal Tendencies), Taime Downe
+  host: Riki Rachtman
+  id: HBB-1990-118
+  notes: Phone interviews with Mike Muir & Taime Downe
+  number: '174'
+  season: 1990-1991
+  theme: ''
+- date: '1990-05-02'
+  era: Classic MTV
+  guest_host: Megadeth
+  host: Riki Rachtman
+  id: HBB-1990-122
+  notes: Megadeth special promoting album
+  number: '175'
+  season: 1990-1991
+  theme: ''
+- date: '1990-05-05'
+  era: Classic MTV
+  guest_host: Love/Hate, Law And Order
+  host: Riki Rachtman
+  id: HBB-1990-125
+  notes: Full show
+  number: '176'
+  season: 1990-1991
+  theme: ''
+- date: '1990-05-12'
+  era: Classic MTV
+  guest_host: Kiss, Slaughter, Faster Pussycat
+  host: Riki Rachtman
+  id: HBB-1990-132
+  notes: 3 hours
+  number: '177'
+  season: 1990-1991
+  theme: On The Road
+- date: '1990-05-19'
+  era: Classic MTV
+  guest_host: Motley Crue
+  host: Riki Rachtman
+  id: HBB-1990-139
+  notes: Riki's first episode! Special marathon with interviews with David Lee Roth,
+    Steven Tyler, Alice Cooper; AC/DC live performances
+  number: '178'
+  season: 1989-1990
+  theme: Decade of Metal Marathon
+- date: '1990-05-26'
+  era: Classic MTV
+  guest_host: ''
+  host: Steve Vai
+  id: HBB-1990-146
+  notes: ''
+  number: '179'
+  season: 1990-1991
+  theme: ''
+- date: '1990-06-02'
+  era: Classic MTV
+  guest_host: ''
+  host: Lita Ford
+  id: HBB-1990-153
+  notes: Lita Ford hosted
+  number: '180'
+  season: 1990-1991
+  theme: ''
+- date: '1990-06-09'
+  era: Classic MTV
+  guest_host: Prong, Bruce Dickinson
+  host: Riki Rachtman
+  id: HBB-1990-160
+  notes: ''
+  number: '181'
+  season: 1990-1991
+  theme: ''
+- date: '1990-06-16'
+  era: Classic MTV
+  guest_host: Ozzy Osbourne, Babylon A.D., & Scatterbrain
+  host: Riki Rachtman
+  id: HBB-1990-147
+  notes: Riki Rachtman's birthday episode
+  number: '182'
+  season: 1989-1990
+  theme: Riki's Birthday
+- date: '1990-06-16'
+  era: Classic MTV
+  guest_host: Ozzy Osbourne, Scatterbrain, Babylon A.D.
+  host: Riki Rachtman
+  id: HBB-1990-167
+  notes: 3 hours
+  number: '183'
+  season: 1990-1991
+  theme: ''
+- date: '1990-06-23'
+  era: Classic MTV
+  guest_host: ''
+  host: Poison
+  id: HBB-1990-174
+  notes: Poison hosted
+  number: '184'
+  season: 1990-1991
+  theme: ''
+- date: '1990-06-30'
+  era: Classic MTV
+  guest_host: ''
+  host: Death Angel
+  id: HBB-1990-181
+  notes: Death Angel hosted
+  number: '185'
+  season: 1990-1991
+  theme: ''
+- date: '1990-07-07'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1990-189
+  notes: Location shoot with Winger
+  number: '186'
+  season: 1989-1990
+  theme: On The Road With Winger
+- date: '1990-07-07'
+  era: Classic MTV
+  guest_host: Winger
+  host: Riki Rachtman
+  id: HBB-1990-188
+  notes: ''
+  number: '187'
+  season: 1990-1991
+  theme: On The Road With Winger
+- date: '1990-07-14'
+  era: Classic MTV
+  guest_host: Warrior Soul, Spread Eagle, Heaven's Edge
+  host: Riki Rachtman
+  id: HBB-1990-195
+  notes: Full 3-hour show with commercials
+  number: '188'
+  season: 1990-1991
+  theme: ''
+- date: '1990-07-21'
+  era: Classic MTV
+  guest_host: Faith No More
+  host: Riki Rachtman
+  id: HBB-1990-202
+  notes: On the Road with Faith No More
+  number: '189'
+  season: 1990-1991
+  theme: On the Road
+- date: '1990-07-28'
+  era: Classic MTV
+  guest_host: LA Guns, London Quireboys, Flotsam & Jetsam
+  host: Riki Rachtman
+  id: HBB-1990-209
+  notes: ''
+  number: '190'
+  season: 1990-1991
+  theme: ''
+- date: '1990-08-04'
+  era: Classic MTV
+  guest_host: ''
+  host: Bruce Dickinson
+  id: HBB-1990-216
+  notes: Bruce Dickinson of Iron Maiden hosted
+  number: '191'
+  season: 1990-1991
+  theme: ''
+- date: '1990-08-11'
+  era: Classic MTV
+  guest_host: ''
+  host: Dave Mustaine, David Ellefson
+  id: HBB-1990-223
+  notes: Dave Mustaine & David Ellefson of Megadeth hosted
+  number: '192'
+  season: 1990-1991
+  theme: ''
+- date: '1990-08-18'
+  era: Classic MTV
+  guest_host: Anthrax
+  host: Riki Rachtman
+  id: HBB-1990-230
+  notes: Anthrax with Megaforce office road reports
+  number: '193'
+  season: 1990-1991
+  theme: ''
+- date: '1990-08-25'
+  era: Classic MTV
+  guest_host: Vixen
+  host: Riki Rachtman
+  id: HBB-1990-237
+  notes: Vixen Album Party Rock Blocks Edition
+  number: '194'
+  season: 1990-1991
+  theme: Rock Blocks
+- date: '1990-08-30'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1990-242
+  notes: 2 hours
+  number: '195'
+  season: 1990-1991
+  theme: Poison Festival Of Flesh Contest
+- date: '1990-08-31'
+  era: Classic MTV
+  guest_host: Poison
+  host: Riki Rachtman
+  id: HBB-1990-243
+  notes: Poison Festival of the Flesh Contest
+  number: '196'
+  season: 1990-1991
+  theme: ''
+- date: '1990-09-08'
+  era: Classic MTV
+  guest_host: Poison
+  host: Riki Rachtman
+  id: HBB-1990-251
+  notes: Poison Festival of the Flesh At Castle Donnington Part II
+  number: '197'
+  season: 1990-1991
+  theme: ''
+- date: '1990-09-15'
+  era: Classic MTV
+  guest_host: Ratt, Stryper, Doro Pesch
+  host: Riki Rachtman
+  id: HBB-1990-258
+  notes: Ratt, Stryper & Doro Pesch featured
+  number: '198'
+  season: 1990-1991
+  theme: ''
+- date: '1990-09-22'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1990-265
+  notes: ''
+  number: '199'
+  season: 1990-1991
+  theme: Concrete Foundations Forum
+- date: '1990-09-29'
+  era: Classic MTV
+  guest_host: Michael Wilton, Chris DeGarmo (Queensryche)
+  host: Riki Rachtman
+  id: HBB-1990-272
+  notes: Michael Wilton & Chris DeGarmo of Queensryche
+  number: '200'
+  season: 1990-1991
+  theme: ''
+- date: '1990-10-06'
+  era: Classic MTV
+  guest_host: ''
+  host: Living Colour
+  id: HBB-1990-279
+  notes: Living Colour hosted
+  number: '201'
+  season: 1990-1991
+  theme: ''
+- date: '1990-10-13'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1990-286
+  notes: ''
+  number: '202'
+  season: 1990-1991
+  theme: ''
+- date: '1990-10-20'
+  era: Classic MTV
+  guest_host: The Scorpions
+  host: Riki Rachtman
+  id: HBB-1990-293
+  notes: The Scorpions featured
+  number: '203'
+  season: 1990-1991
+  theme: ''
+- date: '1990-10-27'
+  era: Classic MTV
+  guest_host: Cinderella
+  host: Riki Rachtman
+  id: HBB-1990-300
+  notes: 360:47 with bonus videos
+  number: '204'
+  season: 1990-1991
+  theme: Shocktober Edition
+- date: '1990-11-03'
+  era: Classic MTV
+  guest_host: Cinderella
+  host: Riki Rachtman
+  id: HBB-1990-307
+  notes: '200:56'
+  number: '205'
+  season: 1990-1991
+  theme: Heartbreak Station in New Orleans
+- date: '1990-11-10'
+  era: Classic MTV
+  guest_host: Angus Young & Brian Johnson (AC/DC)
+  host: Riki Rachtman
+  id: HBB-1990-186
+  notes: Tribute-style showcase featuring AC/DC members
+  number: '206'
+  season: 1990-1991
+  theme: ''
+- date: '1990-11-10'
+  era: Classic MTV
+  guest_host: ''
+  host: AC/DC
+  id: HBB-1990-314
+  notes: ''
+  number: '207'
+  season: 1990-1991
+  theme: Rock Blocks Edition
+- date: '1990-11-17'
+  era: Classic MTV
+  guest_host: ''
+  host: Winger
+  id: HBB-1990-321
+  notes: Winger hosted
+  number: '208'
+  season: 1990-1991
+  theme: ''
+- date: '1990-12-01'
+  era: Classic MTV
+  guest_host: Slayer, Extreme
+  host: Riki Rachtman
+  id: HBB-1990-335
+  notes: 3 hours
+  number: '209'
+  season: 1990-1991
+  theme: ''
+- date: '1990-12-08'
+  era: Classic MTV
+  guest_host: Suicidal Tendencies
+  host: Riki Rachtman
+  id: HBB-1990-342
+  notes: Road Report From Suicidal Tendencies
+  number: '210'
+  season: 1990-1991
+  theme: On the Road
+- date: '1990-12-15'
+  era: Classic MTV
+  guest_host: Testament
+  host: Riki Rachtman
+  id: HBB-1990-349
+  notes: 3 hours
+  number: '211'
+  season: 1990-1991
+  theme: ''
+- date: '1990-12-16'
+  era: Classic MTV
+  guest_host: Jani Lane
+  host: Riki Rachtman
+  id: HBB-1990-350
+  notes: Monsters Of Rock Sunday, RIP Magazine 4th Anniversary Party & Year End Top
+    20 Metal Countdown With Jani Lane
+  number: '212'
+  season: 1990-1991
+  theme: ''
+- date: '1990-12-22'
+  era: Classic MTV
+  guest_host: Vince Neil, Tommy Lee
+  host: Riki Rachtman
+  id: HBB-1990-356
+  notes: Decade of Metal Countdown With Vince Neil & Tommy Lee
+  number: '213'
+  season: 1990-1991
+  theme: Decade of Metal Countdown
+- date: '1990-12-29'
+  era: Classic MTV
+  guest_host: Slaughter
+  host: Riki Rachtman
+  id: HBB-1990-363
+  notes: '156:13'
+  number: '214'
+  season: 1990-1991
+  theme: New Years
+- date: '1991-01-05'
+  era: Classic MTV
+  guest_host: ''
+  host: Trixter
+  id: HBB-1991-005
+  notes: Trixter hosted
+  number: '215'
+  season: 1990-1991
+  theme: ''
+- date: '1991-01-12'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman, Jani Lane
+  id: HBB-1991-012
+  notes: Riki Rachtman & Jani Lane Host Top 20 Year End Countdown
+  number: '216'
+  season: 1990-1991
+  theme: Top 20 Year End Countdown
+- date: '1991-01-19'
+  era: Classic MTV
+  guest_host: ''
+  host: Iron Maiden
+  id: HBB-1991-019
+  notes: ''
+  number: '217'
+  season: 1990-1991
+  theme: On the Road
+- date: '1991-01-26'
+  era: Classic MTV
+  guest_host: Anthrax
+  host: Riki Rachtman
+  id: HBB-1991-026
+  notes: 2.5 hour show, no commercials
+  number: '218'
+  season: 1990-1991
+  theme: On The Road
+- date: '1991-02-02'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-033
+  notes: ''
+  number: '219'
+  season: 1990-1991
+  theme: Grammies Edition
+- date: '1991-02-09'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-040
+  notes: '181:50; Rating: A-'
+  number: '220'
+  season: 1990-1991
+  theme: Headbanger's Rio (part 1)
+- date: '1991-02-16'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-047
+  notes: 90 minutes; Incomplete
+  number: '221'
+  season: 1990-1991
+  theme: Headbanger's Rio (part 2)
+- date: '1991-02-23'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-054
+  notes: Metal Blox Edition
+  number: '222'
+  season: 1990-1991
+  theme: Metal Blox
+- date: '1991-03-02'
+  era: Classic MTV
+  guest_host: Alice In Chains, Lynch Mob
+  host: Riki Rachtman
+  id: HBB-1991-061
+  notes: KNAC 5th Anniversary Benefit Show With Alice In Chains, Lynch Mob & Others
+  number: '223'
+  season: 1990-1991
+  theme: ''
+- date: '1991-03-09'
+  era: Classic MTV
+  guest_host: The Throbs
+  host: Riki Rachtman
+  id: HBB-1991-068
+  notes: The Throbs featured
+  number: '224'
+  season: 1990-1991
+  theme: ''
+- date: '1991-03-16'
+  era: Classic MTV
+  guest_host: ''
+  host: Cinderella
+  id: HBB-1991-075
+  notes: Cinderella hosted
+  number: '225'
+  season: 1990-1991
+  theme: ''
+- date: '1991-03-23'
+  era: Classic MTV
+  guest_host: ''
+  host: The Bulletboys
+  id: HBB-1991-082
+  notes: The Bulletboys hosted
+  number: '226'
+  season: 1990-1991
+  theme: ''
+- date: '1991-03-30'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-089
+  notes: Metal Blox Edition
+  number: '227'
+  season: 1990-1991
+  theme: Metal Blox
+- date: '1991-04-06'
+  era: Classic MTV
+  guest_host: Contraband
+  host: Riki Rachtman
+  id: HBB-1991-096
+  notes: '201:02; Rating: B'
+  number: '228'
+  season: 1991-1992
+  theme: ''
+- date: '1991-04-13'
+  era: Classic MTV
+  guest_host: Pantera, Alice In Chains
+  host: Riki Rachtman
+  id: HBB-1991-103
+  notes: Pantera & Alice In Chains featured
+  number: '229'
+  season: 1990-1991
+  theme: ''
+- date: '1991-04-20'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-211
+  notes: Part of consecutive episode run
+  number: '230'
+  season: 1990-1991
+  theme: ''
+- date: '1991-04-20'
+  era: Classic MTV
+  guest_host: White Lion & Mind Funk
+  host: Riki Rachtman
+  id: HBB-1991-16
+  notes: Featured White Lion and Mind Funk
+  number: '231'
+  season: 1990-1991
+  theme: ''
+- date: '1991-04-20'
+  era: Classic MTV
+  guest_host: White Lion, Mind Funk
+  host: Riki Rachtman
+  id: HBB-1991-110
+  notes: White Lion & Mind Funk
+  number: '232'
+  season: 1990-1991
+  theme: ''
+- date: '1991-04-27'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-212
+  notes: Part of consecutive episode run
+  number: '233'
+  season: 1990-1991
+  theme: ''
+- date: '1991-04-27'
+  era: Classic MTV
+  guest_host: Mr. Big, Kreator
+  host: Riki Rachtman
+  id: HBB-1991-117
+  notes: Mr. Big & Kreator
+  number: '234'
+  season: 1990-1991
+  theme: ''
+- date: '1991-05-04'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-213
+  notes: Part of consecutive episode run
+  number: '235'
+  season: 1990-1991
+  theme: ''
+- date: '1991-05-04'
+  era: Classic MTV
+  guest_host: Lemmy Kilmister (Motorhead)
+  host: Riki Rachtman
+  id: HBB-1991-121
+  notes: Featured Lemmy Kilmister of Motorhead
+  number: '236'
+  season: 1990-1991
+  theme: ''
+- date: '1991-05-04'
+  era: Classic MTV
+  guest_host: ''
+  host: Lemmy Kilmister
+  id: HBB-1991-124
+  notes: Lemmy Kilmister of Motorhead hosted
+  number: '237'
+  season: 1991-1992
+  theme: ''
+- date: '1991-05-11'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-214
+  notes: Part of consecutive episode run
+  number: '238'
+  season: 1990-1991
+  theme: ''
+- date: '1991-05-11'
+  era: Classic MTV
+  guest_host: Primus, Katmandu
+  host: ''
+  id: HBB-1991-131
+  notes: 130 minutes; Missing first 50 minutes
+  number: '239'
+  season: 1991-1992
+  theme: ''
+- date: '1991-05-18'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-215
+  notes: Part of consecutive episode run
+  number: '240'
+  season: 1990-1991
+  theme: ''
+- date: '1991-05-18'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-138
+  notes: 2 hours
+  number: '241'
+  season: 1991-1992
+  theme: Mission Megadeth part 1
+- date: '1991-05-25'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-216
+  notes: Part of consecutive episode run
+  number: '242'
+  season: 1990-1991
+  theme: ''
+- date: '1991-05-25'
+  era: Classic MTV
+  guest_host: Megadeth
+  host: Riki Rachtman
+  id: HBB-1991-145
+  notes: Mission Megadeth At the Cat House Part 2 Rock Blocks Edition
+  number: '243'
+  season: 1991-1992
+  theme: Rock Blocks
+- date: '1991-06-01'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-217
+  notes: Part of consecutive episode run
+  number: '244'
+  season: 1990-1991
+  theme: ''
+- date: '1991-06-01'
+  era: Classic MTV
+  guest_host: Tyketto, Wrathchild America
+  host: Riki Rachtman
+  id: HBB-1991-152
+  notes: 110 minutes; Partial
+  number: '245'
+  season: 1991-1992
+  theme: ''
+- date: '1991-06-08'
+  era: Classic MTV
+  guest_host: Cycle Sluts From Hell, Junkyard
+  host: Riki Rachtman
+  id: HBB-1991-159
+  notes: Cycle Sluts From Hell & Junkyard Album Release Party
+  number: '246'
+  season: 1991-1992
+  theme: ''
+- date: '1991-06-13'
+  era: Classic MTV
+  guest_host: Saigon Kick, Tora Tora
+  host: Riki Rachtman
+  id: HBB-1991-164
+  notes: Full show
+  number: '247'
+  season: 1991-1992
+  theme: ''
+- date: '1991-06-15'
+  era: Classic MTV
+  guest_host: Kik Tracee, Dangerous Toys
+  host: Riki Rachtman
+  id: HBB-1991-166
+  notes: Full show
+  number: '248'
+  season: 1991-1992
+  theme: ''
+- date: '1991-06-22'
+  era: Classic MTV
+  guest_host: Armored Saint, Suicidal Tendencies
+  host: Riki Rachtman
+  id: HBB-1991-173
+  notes: Armored Saint & Suicidal Tendencies
+  number: '249'
+  season: 1991-1992
+  theme: ''
+- date: '1991-06-29'
+  era: Classic MTV
+  guest_host: ''
+  host: Scorpions
+  id: HBB-1991-180
+  notes: ''
+  number: '250'
+  season: 1991-1992
+  theme: ''
+- date: '1991-07-06'
+  era: Classic MTV
+  guest_host: Slayer
+  host: Riki Rachtman
+  id: HBB-1991-187
+  notes: On the Road With Slayer In New York
+  number: '251'
+  season: 1991-1992
+  theme: On the Road
+- date: '1991-07-13'
+  era: Classic MTV
+  guest_host: Megadeth, Slayer, Anthrax, Chuck D., Alice In Chains
+  host: Riki Rachtman
+  id: HBB-1991-194
+  notes: Clash of the Titans With Megadeth, Slayer, Anthrax, Chuck D., & Alice In
+    Chains
+  number: '252'
+  season: 1991-1992
+  theme: Clash of the Titans
+- date: '1991-07-20'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-201
+  notes: 165 minutes
+  number: '253'
+  season: 1991-1992
+  theme: 'On the Road: Operation Rock n Roll'
+- date: '1991-07-27'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-208
+  notes: Full show
+  number: '254'
+  season: 1991-1992
+  theme: ''
+- date: '1991-08-10'
+  era: Classic MTV
+  guest_host: ''
+  host: L.A. Guns
+  id: HBB-1991-222
+  notes: L.A. Guns hosted
+  number: '255'
+  season: 1991-1992
+  theme: ''
+- date: '1991-08-24'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-229
+  notes: Featured Warrior Soul & White Trash
+  number: '256'
+  season: 1990-1991
+  theme: ''
+- date: '1991-08-24'
+  era: Classic MTV
+  guest_host: Bang Tango, Liquid Jesus
+  host: Riki Rachtman
+  id: HBB-1991-236
+  notes: Bang Tango & Liquid Jesus
+  number: '257'
+  season: 1991-1992
+  theme: ''
+- date: '1991-09-07'
+  era: Classic MTV
+  guest_host: Queensryche
+  host: Riki Rachtman
+  id: HBB-1991-250
+  notes: Invading the Empire With Queensryche In London Part 1
+  number: '258'
+  season: 1991-1992
+  theme: Invading the Empire
+- date: '1991-09-14'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-257
+  notes: Invading the Empire At Monsters Of Rock Part 2
+  number: '259'
+  season: 1991-1992
+  theme: Monsters Of Rock
+- date: '1991-09-21'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-233
+  notes: Included Four Horsemen performance
+  number: '260'
+  season: 1990-1991
+  theme: ''
+- date: '1991-09-28'
+  era: Classic MTV
+  guest_host: Pearl Jam
+  host: Riki Rachtman
+  id: HBB-1991-271
+  notes: Pearl Jam featured
+  number: '261'
+  season: 1991-1992
+  theme: ''
+- date: '1991-10-05'
+  era: Classic MTV
+  guest_host: XYZ, The Cult
+  host: Riki Rachtman
+  id: HBB-1991-278
+  notes: XYZ & The Cult
+  number: '262'
+  season: 1991-1992
+  theme: ''
+- date: '1991-10-12'
+  era: Classic MTV
+  guest_host: Lita Ford
+  host: Riki Rachtman
+  id: HBB-1991-285
+  notes: ''
+  number: '263'
+  season: 1991-1992
+  theme: ''
+- date: '1991-10-19'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-292
+  notes: 153 minutes
+  number: '264'
+  season: 1991-1992
+  theme: Foundations Forum '91
+- date: '1991-10-26'
+  era: Classic MTV
+  guest_host: ''
+  host: Nikki Sixx & Vince Neil (Motley Crue)
+  id: HBB-1991-299
+  notes: 2.5 hours; 2 DVDs
+  number: '265'
+  season: 1991-1992
+  theme: ''
+- date: '1991-11-02'
+  era: Classic MTV
+  guest_host: Nirvana & Sepultura
+  host: Riki Rachtman
+  id: HBB-1991-306
+  notes: Historic episode featuring Nirvana and Sepultura
+  number: '266'
+  season: 1991-1992
+  theme: ''
+- date: '1991-11-09'
+  era: Classic MTV
+  guest_host: Ugly Kid Joe, Law & Order, Infectious Grooves
+  host: Riki Rachtman
+  id: HBB-1991-313
+  notes: Ugly Kid Joe, Law & Order, & Infectious Grooves
+  number: '267'
+  season: 1991-1992
+  theme: ''
+- date: '1991-11-16'
+  era: Classic MTV
+  guest_host: Fates Warning
+  host: Riki Rachtman
+  id: HBB-1991-320
+  notes: Fates Warning featured
+  number: '268'
+  season: 1991-1992
+  theme: ''
+- date: '1991-11-22'
+  era: Classic MTV
+  guest_host: Ozzy & Jack Osbourne
+  host: Riki Rachtman
+  id: HBB-1991-326
+  notes: 3 hours
+  number: '269'
+  season: 1991-1992
+  theme: Rock Blocks
+- date: '1991-11-23'
+  era: Classic MTV
+  guest_host: Ozzy Osbourne & band members
+  host: Riki Rachtman
+  id: HBB-1991-242
+  notes: Featured Ozzy Osbourne and band
+  number: '270'
+  season: 1991-1992
+  theme: ''
+- date: '1991-11-23'
+  era: Classic MTV
+  guest_host: Ozzy & Jack Osbourne
+  host: Riki Rachtman
+  id: HBB-1991-327
+  notes: Featured Ozzy Osbourne, Guns N' Roses, Queensryche, Metallica, Skid Row,
+    Warrior Soul, Motley Crue, Slayer, Infectious Grooves, Suicidal Tendencies
+  number: '271'
+  season: 1991-1992
+  theme: Rock Blocks Edition
+- date: '1991-11-30'
+  era: Classic MTV
+  guest_host: Ozzy Osbourne & band members
+  host: Riki Rachtman
+  id: HBB-1991-243
+  notes: Featured Ozzy Osbourne and band
+  number: '272'
+  season: 1991-1992
+  theme: ''
+- date: '1991-11-30'
+  era: Classic MTV
+  guest_host: Prong, Soundgarden, Corrosion Of Conformity
+  host: Riki Rachtman
+  id: HBB-1991-334
+  notes: Prong, Soundgarden, Corrosion Of Conformity
+  number: '273'
+  season: 1991-1992
+  theme: ''
+- date: '1991-12-07'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1991-341
+  notes: 3 hours
+  number: '274'
+  season: 1991-1992
+  theme: Cathouse 5th Anniversary
+- date: '1991-12-14'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-245
+  notes: Special tribute episode
+  number: '275'
+  season: 1991-1992
+  theme: Aerosmith Tribute Show
+- date: '1991-12-14'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-348
+  notes: Tribute featuring Aerosmith videos including "Dude Looks Like A Lady", "Jamie's
+    Got A Gun"; interviews with Steven Tyler, Tom Hamilton, Joey Kramer
+  number: '276'
+  season: 1991-1992
+  theme: Aerosmith Tribute Show
+- date: '1991-12-21'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-355
+  notes: '231:20; Rating: A-'
+  number: '277'
+  season: 1991-1992
+  theme: Best Of '91 from his apartment
+- date: '1991-12-28'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1991-362
+  notes: Encore of Rock In Rio Pt. 1 & 2
+  number: '278'
+  season: 1991-1992
+  theme: Rock In Rio
+- date: '1992-01-04'
+  era: Classic MTV
+  guest_host: ''
+  host: Unknown
+  id: HBB-1992-247
+  notes: Featured Slayer
+  number: '279'
+  season: 1991-1992
+  theme: New Year Celebration
+- date: '1992-01-04'
+  era: Classic MTV
+  guest_host: Slayer
+  host: Riki Rachtman
+  id: HBB-1992-004
+  notes: 2 hours; Incomplete
+  number: '280'
+  season: 1991-1992
+  theme: Bang in the New Year
+- date: '1992-01-11'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1992-011
+  notes: Best Of 91
+  number: '281'
+  season: 1991-1992
+  theme: Best Of 91
+- date: '1992-01-25'
+  era: Classic MTV
+  guest_host: Primus
+  host: Riki Rachtman
+  id: HBB-1992-025
+  notes: Primus At the Cat House Metal Blocks Edition
+  number: '282'
+  season: 1991-1992
+  theme: Metal Blocks
+- date: '1992-02-01'
+  era: Classic MTV
+  guest_host: Ozzy Osbourne, Prong
+  host: Riki Rachtman
+  id: HBB-1992-032
+  notes: On the Road With Ozzy Osbourne & Prong
+  number: '283'
+  season: 1991-1992
+  theme: On the Road
+- date: '1992-02-08'
+  era: Classic MTV
+  guest_host: Scatterbrain, Ugly Kid Joe
+  host: Riki Rachtman
+  id: HBB-1992-039
+  notes: Scatterbrain & Ugly Kid Joe At the Scrap Bar
+  number: '284'
+  season: 1991-1992
+  theme: ''
+- date: '1992-02-15'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1992-254
+  notes: Featured Asphalt Ballet & War Babies
+  number: '285'
+  season: 1991-1992
+  theme: ''
+- date: '1992-02-15'
+  era: Classic MTV
+  guest_host: Asphalt Ballet, War Babies
+  host: Riki Rachtman
+  id: HBB-1992-046
+  notes: At the Bordello
+  number: '286'
+  season: 1991-1992
+  theme: ''
+- date: '1992-02-22'
+  era: Classic MTV
+  guest_host: Queensryche, Anthrax
+  host: ''
+  id: HBB-1992-053
+  notes: '3 hours; Rating: A'
+  number: '287'
+  season: 1991-1992
+  theme: Grammy Edition on Married...Children set
+- date: '1992-02-29'
+  era: Classic MTV
+  guest_host: L.A. Guns
+  host: Riki Rachtman
+  id: HBB-1992-060
+  notes: L.A. Guns featured
+  number: '288'
+  season: 1991-1992
+  theme: ''
+- date: '1992-03-07'
+  era: Classic MTV
+  guest_host: My Sister's Machine, Overkill
+  host: Riki Rachtman
+  id: HBB-1992-067
+  notes: My Sister's Machine & Overkill (New Set & Countdown To The Ball)
+  number: '289'
+  season: 1991-1992
+  theme: Countdown To The Ball
+- date: '1992-03-14'
+  era: Classic MTV
+  guest_host: Skid Row, Pantera
+  host: Riki Rachtman
+  id: HBB-1992-074
+  notes: On the Road With Skid Row & Pantera Part 2
+  number: '290'
+  season: 1991-1992
+  theme: On the Road
+- date: '1992-03-21'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1992-081
+  notes: '202:50; Rating: D, poor sound'
+  number: '291'
+  season: 1991-1992
+  theme: Spring Break '92 @ Daytona, FL
+- date: '1992-03-28'
+  era: Classic MTV
+  guest_host: ''
+  host: Spinal Tap
+  id: HBB-1992-088
+  notes: Spinal Tap hosted
+  number: '292'
+  season: 1991-1992
+  theme: ''
+- date: '1992-04-04'
+  era: Classic MTV
+  guest_host: Roxy Blue, Motorpsycho
+  host: Riki Rachtman
+  id: HBB-1992-095
+  notes: Roxy Blue & Motorpsycho
+  number: '293'
+  season: 1991-1992
+  theme: ''
+- date: '1992-04-11'
+  era: Classic MTV
+  guest_host: Blackie Lawless, Vanessa Warwick
+  host: Riki Rachtman
+  id: HBB-1992-102
+  notes: Iron Maiden Release Party With Blackie Lawless & Vanessa Warwick
+  number: '294'
+  season: 1991-1992
+  theme: ''
+- date: '1992-04-18'
+  era: Classic MTV
+  guest_host: Slaughter
+  host: Riki Rachtman
+  id: HBB-1992-109
+  notes: Slaughter featured
+  number: '295'
+  season: 1991-1992
+  theme: ''
+- date: '1992-04-25'
+  era: Classic MTV
+  guest_host: Slik Toxik, White Zombie, King's X, Corrosion of Conformity
+  host: Riki Rachtman
+  id: HBB-1992-116
+  notes: Slik Toxik, White Zombie, King's X, & Corrosion of Conformity
+  number: '296'
+  season: 1991-1992
+  theme: ''
+- date: '1992-05-02'
+  era: Classic MTV
+  guest_host: Megadeth
+  host: Riki Rachtman
+  id: HBB-1992-123
+  notes: at Capital Records Studios; 3 hours
+  number: '297'
+  season: 1992-1993
+  theme: ''
+- date: '1992-05-09'
+  era: Classic MTV
+  guest_host: Kiss
+  host: Riki Rachtman
+  id: HBB-1992-130
+  notes: '185:25; Rating: A-'
+  number: '298'
+  season: 1992-1993
+  theme: Live at the Troubador
+- date: '1992-05-12'
+  era: Classic MTV
+  guest_host: Megadeth
+  host: Riki Rachtman
+  id: HBB-1992-132
+  notes: Repeat of Megadeth Show
+  number: '299'
+  season: 1992-1993
+  theme: ''
+- date: '1992-05-16'
+  era: Classic MTV
+  guest_host: Alice In Chains
+  host: Riki Rachtman
+  id: HBB-1992-137
+  notes: Special episode from The Mansion featuring Alice In Chains. Top 10 included
+    Slaughter, Def Leppard, Pearl Jam, Ozzy, Kings X, Nirvana, Body Count, Kiss, Soundgarden,
+    Vince Neil
+  number: '300'
+  season: 1991-1992
+  theme: At the Mansion
+- date: '1992-05-23'
+  era: Classic MTV
+  guest_host: Testament, Shotgun Messiah
+  host: Riki Rachtman
+  id: HBB-1992-144
+  notes: Testament & Shotgun Messiah
+  number: '301'
+  season: 1992-1993
+  theme: ''
+- date: '1992-05-30'
+  era: Classic MTV
+  guest_host: Prong
+  host: Riki Rachtman
+  id: HBB-1992-151
+  notes: Prong featured
+  number: '302'
+  season: 1992-1993
+  theme: ''
+- date: '1992-06-06'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1992-158
+  notes: No Guest
+  number: '303'
+  season: 1992-1993
+  theme: ''
+- date: '1992-06-13'
+  era: Classic MTV
+  guest_host: Tora Tora, Saigon Kick, Suicidal Tendencies
+  host: Riki Rachtman
+  id: HBB-1992-165
+  notes: Tora Tora, Saigon Kick & Suicidal Tendencies
+  number: '304'
+  season: 1992-1993
+  theme: ''
+- date: '1992-06-20'
+  era: Classic MTV
+  guest_host: Lynch Mob, L7
+  host: Riki Rachtman
+  id: HBB-1992-172
+  notes: '179:35'
+  number: '305'
+  season: 1992-1993
+  theme: ''
+- date: '1992-06-27'
+  era: Classic MTV
+  guest_host: ''
+  host: Iron Maiden
+  id: HBB-1992-179
+  notes: Iron Maiden hosted
+  number: '306'
+  season: 1992-1993
+  theme: ''
+- date: '1992-07-04'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1992-186
+  notes: Metal Blox Edition
+  number: '307'
+  season: 1992-1993
+  theme: Metal Blox
+- date: '1992-07-11'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1992-193
+  notes: ''
+  number: '308'
+  season: 1992-1993
+  theme: ''
+- date: '1992-07-18'
+  era: Classic MTV
+  guest_host: ''
+  host: Faith No More
+  id: HBB-1992-200
+  notes: Faith No More hosted
+  number: '309'
+  season: 1992-1993
+  theme: ''
+- date: '1992-07-25'
+  era: Classic MTV
+  guest_host: ''
+  host: Ugly Kid Joe
+  id: HBB-1992-207
+  notes: Ugly Kid Joe hosted
+  number: '310'
+  season: 1992-1993
+  theme: ''
+- date: '1992-08-01'
+  era: Classic MTV
+  guest_host: ''
+  host: Kiss
+  id: HBB-1992-214
+  notes: Kiss hosted
+  number: '311'
+  season: 1992-1993
+  theme: ''
+- date: '1992-08-08'
+  era: Classic MTV
+  guest_host: Joe Satriani, T-Ride
+  host: Riki Rachtman
+  id: HBB-1992-221
+  notes: Joe Satriani & T-Ride
+  number: '312'
+  season: 1992-1993
+  theme: ''
+- date: '1992-08-15'
+  era: Classic MTV
+  guest_host: Danzig, Black Sabbath
+  host: Riki Rachtman
+  id: HBB-1992-228
+  notes: Danzig & Black Sabbath
+  number: '313'
+  season: 1992-1993
+  theme: ''
+- date: '1992-08-22'
+  era: Classic MTV
+  guest_host: GWAR & Ministry
+  host: Riki Rachtman
+  id: HBB-1992-235
+  notes: Featured GWAR and Ministry
+  number: '314'
+  season: 1991-1992
+  theme: ''
+- date: '1992-08-29'
+  era: Classic MTV
+  guest_host: Alice In Chains
+  host: Riki Rachtman
+  id: HBB-1992-242
+  notes: Alice In Chains At Mansion
+  number: '315'
+  season: 1992-1993
+  theme: ''
+- date: '1992-09-05'
+  era: Classic MTV
+  guest_host: Motorhead, Trouble
+  host: Riki Rachtman
+  id: HBB-1992-249
+  notes: 2 hours
+  number: '316'
+  season: 1992-1993
+  theme: ''
+- date: '1992-09-12'
+  era: Classic MTV
+  guest_host: White Zombie, Pantera
+  host: Riki Rachtman
+  id: HBB-1992-256
+  notes: White Zombie & Pantera
+  number: '317'
+  season: 1992-1993
+  theme: ''
+- date: '1992-09-19'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1992-263
+  notes: No Guest
+  number: '318'
+  season: 1992-1993
+  theme: ''
+- date: '1992-09-26'
+  era: Classic MTV
+  guest_host: Mike Muir (Suicidal Tendencies)
+  host: Riki Rachtman
+  id: HBB-1992-270
+  notes: Mike Muir Of Suicidal Tendencies
+  number: '319'
+  season: 1992-1993
+  theme: ''
+- date: '1992-10-03'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1992-277
+  notes: ''
+  number: '320'
+  season: 1992-1993
+  theme: ''
+- date: '1992-10-10'
+  era: Classic MTV
+  guest_host: Danzig
+  host: Riki Rachtman
+  id: HBB-1992-284
+  notes: '177:34; Rating: A-, complete with ads'
+  number: '321'
+  season: 1992-1993
+  theme: End Your Dirty Black Summer (Munich, Germany)
+- date: '1992-10-17'
+  era: Classic MTV
+  guest_host: AC/DC
+  host: Riki Rachtman
+  id: HBB-1992-291
+  notes: AC/DC
+  number: '322'
+  season: 1992-1993
+  theme: ''
+- date: '1992-10-24'
+  era: Classic MTV
+  guest_host: Faster Pussycat, Bad4Good
+  host: Riki Rachtman
+  id: HBB-1992-298
+  notes: Faster Pussycat & Bad4Good
+  number: '323'
+  season: 1992-1993
+  theme: ''
+- date: '1992-10-31'
+  era: Classic MTV
+  guest_host: Ozzy Osbourne
+  host: Riki Rachtman
+  id: HBB-1992-305
+  notes: '180:05; Rating: B+'
+  number: '324'
+  season: 1992-1993
+  theme: No More Tours For Ozzy
+- date: '1992-11-07'
+  era: Classic MTV
+  guest_host: Megadeth, Suicidal Tendencies
+  host: Riki Rachtman
+  id: HBB-1992-312
+  notes: 2 hours; Incomplete
+  number: '325'
+  season: 1992-1993
+  theme: On the Road
+- date: '1992-11-14'
+  era: Classic MTV
+  guest_host: Alice In Chains
+  host: Riki Rachtman
+  id: HBB-1992-319
+  notes: Alice In Chains In New Orleans
+  number: '326'
+  season: 1992-1993
+  theme: ''
+- date: '1992-11-21'
+  era: Classic MTV
+  guest_host: Exodus
+  host: Riki Rachtman
+  id: HBB-1992-326
+  notes: Exodus featured
+  number: '327'
+  season: 1992-1993
+  theme: ''
+- date: '1992-11-28'
+  era: Classic MTV
+  guest_host: The Ramones
+  host: Riki Rachtman
+  id: HBB-1992-333
+  notes: The Ramones featured
+  number: '328'
+  season: 1992-1993
+  theme: ''
+- date: '1992-12-05'
+  era: Classic MTV
+  guest_host: Stone Temple Pilots
+  host: Riki Rachtman
+  id: HBB-1992-340
+  notes: Featured Stone Temple Pilots. Top 10 countdown included Guns N' Roses, Metallica,
+    AC/DC, Ozzy, Alice in Chains, Megadeth, Nirvana, Saigon Kick, Extreme, Def Leppard
+  number: '329'
+  season: 1992-1993
+  theme: Countdown to the Ball
+- date: '1992-12-12'
+  era: Classic MTV
+  guest_host: Brian Johnson (AC/DC), Bad Biscuit
+  host: Riki Rachtman
+  id: HBB-1992-347
+  notes: Brian Johnson of AC/DC & Bad Biscuit In New York
+  number: '330'
+  season: 1992-1993
+  theme: ''
+- date: '1992-12-19'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1992-299
+  notes: Year-end compilation episode
+  number: '331'
+  season: 1992-1993
+  theme: Best of 1992
+- date: '1992-12-19'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1992-353
+  notes: Best of 1992
+  number: '332'
+  season: 1992-1993
+  theme: Best of 1992
+- date: '1992-12-26'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1992-300
+  notes: 300th episode milestone and holiday special
+  number: '333'
+  season: 1992-1993
+  theme: Holiday Special
+- date: '1992-12-26'
+  era: Classic MTV
+  guest_host: Sepultura, Helmet
+  host: Riki Rachtman
+  id: HBB-1992-361
+  notes: Holiday Special at the Scrap Bar in NY with Sepultura & Helmet
+  number: '334'
+  season: 1992-1993
+  theme: Holiday Special
+- date: '1992-12-27'
+  era: Classic MTV
+  guest_host: Dave Mustaine
+  host: Riki Rachtman
+  id: HBB-1992-362
+  notes: Special episode celebrating heavy music of 1992; Featured Dave Mustaine
+  number: '335'
+  season: 1992-1993
+  theme: Year-End Special
+- date: '1993-01-16'
+  era: Classic MTV
+  guest_host: Kyuss
+  host: Riki Rachtman
+  id: HBB-1993-016
+  notes: ''
+  number: '336'
+  season: 1992-1993
+  theme: ''
+- date: '1993-01-23'
+  era: Classic MTV
+  guest_host: Dee Snider
+  host: Riki Rachtman
+  id: HBB-1993-023
+  notes: '174:17; Quality: C'
+  number: '337'
+  season: 1992-1993
+  theme: Inaugural Ball
+- date: '1993-01-24'
+  era: Classic MTV
+  guest_host: Dave Mustaine
+  host: Riki Rachtman
+  id: HBB-1993-024
+  notes: From Washington D.C. with Dave Mustaine
+  number: '338'
+  season: 1992-1993
+  theme: ''
+- date: '1993-01-30'
+  era: Classic MTV
+  guest_host: Pro-Pain
+  host: Riki Rachtman
+  id: HBB-1993-030
+  notes: '71:02'
+  number: '339'
+  season: 1992-1993
+  theme: ''
+- date: '1993-02-06'
+  era: Classic MTV
+  guest_host: Al Jourgensen (Ministry)
+  host: Riki Rachtman
+  id: HBB-1993-307
+  notes: Featured Ministry's Al Jourgensen
+  number: '340'
+  season: 1992-1993
+  theme: ''
+- date: '1993-02-06'
+  era: Classic MTV
+  guest_host: Al Jourgensen
+  host: Riki Rachtman
+  id: HBB-1993-037
+  notes: Taped interview with Al Jourgensen
+  number: '341'
+  season: 1992-1993
+  theme: ''
+- date: '1993-02-13'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1993-044
+  notes: 2 hours
+  number: '342'
+  season: 1992-1993
+  theme: Music Award Nominations
+- date: '1993-02-20'
+  era: Classic MTV
+  guest_host: Ministry
+  host: Riki Rachtman
+  id: HBB-1993-051
+  notes: INCOMPLETE
+  number: '343'
+  season: 1992-1993
+  theme: ''
+- date: '1993-02-27'
+  era: Classic MTV
+  guest_host: Gruntruck, Rob Zombie
+  host: Riki Rachtman
+  id: HBB-1993-058
+  notes: Gruntruck featured; Rob Zombie paints the set
+  number: '344'
+  season: 1992-1993
+  theme: ''
+- date: '1993-03-06'
+  era: Classic MTV
+  guest_host: Flotsam & Jetsam
+  host: Riki Rachtman
+  id: HBB-1993-065
+  notes: 2 hours
+  number: '345'
+  season: 1992-1993
+  theme: ''
+- date: '1993-03-13'
+  era: Classic MTV
+  guest_host: Infectious Grooves
+  host: Riki Rachtman
+  id: HBB-1993-072
+  notes: ''
+  number: '346'
+  season: 1992-1993
+  theme: ''
+- date: '1993-03-20'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1993-079
+  notes: '121:48'
+  number: '347'
+  season: 1992-1993
+  theme: Spring Break '93 @ Daytona, FL
+- date: '1993-03-27'
+  era: Classic MTV
+  guest_host: Dream Theater, Green Jello
+  host: Riki Rachtman
+  id: HBB-1993-086
+  notes: ''
+  number: '348'
+  season: 1993-1994
+  theme: ''
+- date: '1993-04-03'
+  era: Classic MTV
+  guest_host: Jackyl, Circus of Power
+  host: Riki Rachtman
+  id: HBB-1993-093
+  notes: ''
+  number: '349'
+  season: 1993-1994
+  theme: ''
+- date: '1993-04-10'
+  era: Classic MTV
+  guest_host: Animal Bag, Ugly Kid Joe, Collision, Anthrax
+  host: Riki Rachtman
+  id: HBB-1993-100
+  notes: '120:32'
+  number: '350'
+  season: 1993-1994
+  theme: ''
+- date: '1993-04-17'
+  era: Classic MTV
+  guest_host: Anthrax
+  host: Riki Rachtman
+  id: HBB-1993-107
+  notes: ''
+  number: '351'
+  season: 1993-1994
+  theme: ''
+- date: '1993-04-24'
+  era: Classic MTV
+  guest_host: Living Colour, Sacred Reich
+  host: Riki Rachtman
+  id: HBB-1993-114
+  notes: ''
+  number: '352'
+  season: 1993-1994
+  theme: ''
+- date: '1993-05-01'
+  era: Classic MTV
+  guest_host: Testament, Overkill, Rob Zombie
+  host: Riki Rachtman
+  id: HBB-1993-121
+  notes: ''
+  number: '353'
+  season: 1993-1994
+  theme: ''
+- date: '1993-05-08'
+  era: Classic MTV
+  guest_host: Nuclear Assault, Quicksand, Rob Zombie
+  host: Riki Rachtman
+  id: HBB-1993-128
+  notes: ''
+  number: '354'
+  season: 1993-1994
+  theme: ''
+- date: '1993-05-09'
+  era: Classic MTV
+  guest_host: Nuclear Assault, Quicksand
+  host: Riki Rachtman
+  id: HBB-1993-129
+  notes: 2 hours
+  number: '355'
+  season: 1993-1994
+  theme: ''
+- date: '1993-05-15'
+  era: Classic MTV
+  guest_host: Suicidal Tendencies
+  host: ''
+  id: HBB-1993-135
+  notes: 'Quality: A-'
+  number: '356'
+  season: 1993-1994
+  theme: ''
+- date: '1993-05-22'
+  era: Classic MTV
+  guest_host: Anthrax
+  host: Riki Rachtman
+  id: HBB-1993-142
+  notes: Trail of Noise with Anthrax West Coast Part 1
+  number: '357'
+  season: 1993-1994
+  theme: Trail of Noise - West Coast Part 1
+- date: '1993-05-29'
+  era: Classic MTV
+  guest_host: Anthrax
+  host: Riki Rachtman
+  id: HBB-1993-149
+  notes: Trail of Noise with Anthrax East Coast Part 2
+  number: '358'
+  season: 1993-1994
+  theme: Trail of Noise - East Coast Part 2
+- date: '1993-06-05'
+  era: Classic MTV
+  guest_host: Gene Simmons, Paul Stanley (Kiss)
+  host: Riki Rachtman
+  id: HBB-1993-156
+  notes: With Gene Simmons and Paul Stanley of Kiss
+  number: '359'
+  season: 1993-1994
+  theme: ''
+- date: '1993-06-12'
+  era: Classic MTV
+  guest_host: Butthole Surfers
+  host: Riki Rachtman
+  id: HBB-1993-163
+  notes: Riki Rachtman's Birth Day Show with Butthole Surfers
+  number: '360'
+  season: 1993-1994
+  theme: Birthday Show
+- date: '1993-06-19'
+  era: Classic MTV
+  guest_host: Paw
+  host: Riki Rachtman
+  id: HBB-1993-170
+  notes: ''
+  number: '361'
+  season: 1993-1994
+  theme: ''
+- date: '1993-06-26'
+  era: Classic MTV
+  guest_host: Raging Slab
+  host: Riki Rachtman
+  id: HBB-1993-177
+  notes: ''
+  number: '362'
+  season: 1993-1994
+  theme: ''
+- date: '1993-07-03'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1993-184
+  notes: ''
+  number: '363'
+  season: 1993-1994
+  theme: ''
+- date: '1993-07-10'
+  era: Classic MTV
+  guest_host: Blind Melon, Monster Magnet
+  host: Riki Rachtman
+  id: HBB-1993-191
+  notes: ''
+  number: '364'
+  season: 1993-1994
+  theme: ''
+- date: '1993-07-17'
+  era: Classic MTV
+  guest_host: Vince Neil, Galactic Cowboys
+  host: Riki Rachtman
+  id: HBB-1993-198
+  notes: ''
+  number: '365'
+  season: 1993-1994
+  theme: ''
+- date: '1993-07-24'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1993-205
+  notes: Host At Lollapalooza '93
+  number: '366'
+  season: 1993-1994
+  theme: Lollapalooza '93
+- date: '1993-07-31'
+  era: Classic MTV
+  guest_host: Alice in Chains
+  host: Riki Rachtman
+  id: HBB-1993-213
+  notes: On location at Action Park, NJ with Alice in Chains
+  number: '367'
+  season: 1992-1993
+  theme: On the Road
+- date: '1993-07-31'
+  era: Classic MTV
+  guest_host: Alice in Chains
+  host: ''
+  id: HBB-1993-212
+  notes: Alice in Chains at Action Park
+  number: '368'
+  season: 1993-1994
+  theme: ''
+- date: '1993-08-07'
+  era: Classic MTV
+  guest_host: King Diamond
+  host: Riki Rachtman
+  id: HBB-1993-219
+  notes: Featured Ozzy Osbourne Live & Loud with guest King Diamond
+  number: '369'
+  season: 1992-1993
+  theme: Ozzy Osbourne Live & Loud
+- date: '1993-08-14'
+  era: Classic MTV
+  guest_host: Anthrax, White Zombie, Quicksand
+  host: Riki Rachtman
+  id: HBB-1993-226
+  notes: On the Road in NY with Anthrax, White Zombie, and Quicksand
+  number: '370'
+  season: 1993-1994
+  theme: On the Road
+- date: '1993-08-21'
+  era: Classic MTV
+  guest_host: Biohazard
+  host: Riki Rachtman
+  id: HBB-1993-233
+  notes: ''
+  number: '371'
+  season: 1993-1994
+  theme: ''
+- date: '1993-08-28'
+  era: Classic MTV
+  guest_host: Steve Vai, Devin Townsend
+  host: Riki Rachtman
+  id: HBB-1993-240
+  notes: ''
+  number: '372'
+  season: 1993-1994
+  theme: ''
+- date: '1993-09-04'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1993-247
+  notes: Metal Blocks Edition
+  number: '373'
+  season: 1993-1994
+  theme: Metal Blocks
+- date: '1993-09-11'
+  era: Classic MTV
+  guest_host: Morbid Angel
+  host: Riki Rachtman
+  id: HBB-1993-254
+  notes: '120:32'
+  number: '374'
+  season: 1993-1994
+  theme: ''
+- date: '1993-09-18'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1993-261
+  notes: '199:17'
+  number: '375'
+  season: 1993-1994
+  theme: Foundations Forum
+- date: '1993-09-25'
+  era: Classic MTV
+  guest_host: Gary Hoey, Rob Halford, Slayer
+  host: Riki Rachtman
+  id: HBB-1993-268
+  notes: Riki Rachtman's Ball-B-Q Part 2
+  number: '376'
+  season: 1993-1994
+  theme: Ball-B-Q Part 2
+- date: '1993-10-02'
+  era: Classic MTV
+  guest_host: My Little Funhouse
+  host: Riki Rachtman
+  id: HBB-1993-275
+  notes: ''
+  number: '377'
+  season: 1993-1994
+  theme: ''
+- date: '1993-10-09'
+  era: Classic MTV
+  guest_host: Duff McKagan
+  host: Riki Rachtman
+  id: HBB-1993-282
+  notes: ''
+  number: '378'
+  season: 1993-1994
+  theme: ''
+- date: '1993-10-16'
+  era: Classic MTV
+  guest_host: Cathedral
+  host: Riki Rachtman
+  id: HBB-1993-289
+  notes: '120:32; Quality: B-'
+  number: '379'
+  season: 1993-1994
+  theme: ''
+- date: '1993-10-23'
+  era: Classic MTV
+  guest_host: I Mother Earth
+  host: Riki Rachtman
+  id: HBB-1993-296
+  notes: ''
+  number: '380'
+  season: 1993-1994
+  theme: ''
+- date: '1993-10-30'
+  era: Classic MTV
+  guest_host: Motorhead, Glenn Danzig
+  host: Riki Rachtman
+  id: HBB-1993-303
+  notes: No commercials
+  number: '381'
+  season: 1993-1994
+  theme: Halloween Edition
+- date: '1993-11-06'
+  era: Classic MTV
+  guest_host: My Sister's Machine
+  host: Riki Rachtman
+  id: HBB-1993-310
+  notes: ''
+  number: '382'
+  season: 1993-1994
+  theme: ''
+- date: '1993-11-13'
+  era: Classic MTV
+  guest_host: Skid Row
+  host: Riki Rachtman
+  id: HBB-1993-317
+  notes: INCOMPLETE
+  number: '383'
+  season: 1993-1994
+  theme: ''
+- date: '1993-11-20'
+  era: Classic MTV
+  guest_host: The Melvins
+  host: Riki Rachtman
+  id: HBB-1993-324
+  notes: ''
+  number: '384'
+  season: 1993-1994
+  theme: ''
+- date: '1993-11-27'
+  era: Classic MTV
+  guest_host: Fight, Fudge Tunnel
+  host: Riki Rachtman
+  id: HBB-1993-331
+  notes: ''
+  number: '385'
+  season: 1993-1994
+  theme: ''
+- date: '1993-12-04'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1993-338
+  notes: ''
+  number: '386'
+  season: 1993-1994
+  theme: ''
+- date: '1993-12-11'
+  era: Classic MTV
+  guest_host: Lars Ulrich (Metallica)
+  host: Riki Rachtman
+  id: HBB-1993-345
+  notes: With Lars Ulrich of Metallica
+  number: '387'
+  season: 1993-1994
+  theme: ''
+- date: '1993-12-18'
+  era: Classic MTV
+  guest_host: Metallica
+  host: Riki Rachtman
+  id: HBB-1993-352
+  notes: Metallica Live; Sh*t, Binge & Purge Special
+  number: '388'
+  season: 1993-1994
+  theme: Sh*t, Binge & Purge Special
+- date: '1993-12-25'
+  era: Classic MTV
+  guest_host: Sepultura
+  host: Riki Rachtman
+  id: HBB-1993-359
+  notes: 2 Hour Show with all interviews and videos; No commercials
+  number: '389'
+  season: 1993-1994
+  theme: Christmas Show
+- date: '1994-01-01'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-000
+  notes: Special episode filmed in Japan
+  number: '390'
+  season: 1993-1994
+  theme: Headbangers Bar-B-Q Japan
+- date: '1994-01-01'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-001
+  notes: Best of 1993
+  number: '391'
+  season: 1993-1994
+  theme: Best of 1993
+- date: '1994-01-08'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-008
+  notes: ''
+  number: '392'
+  season: 1993-1994
+  theme: ''
+- date: '1994-01-15'
+  era: Classic MTV
+  guest_host: Anthrax
+  host: Riki Rachtman
+  id: HBB-1994-015
+  notes: Trail of Noise with Anthrax
+  number: '393'
+  season: 1993-1994
+  theme: Trail of Noise
+- date: '1994-01-22'
+  era: Classic MTV
+  guest_host: Anthrax
+  host: Riki Rachtman
+  id: HBB-1994-022
+  notes: Full 2 Hour Show with all commercials
+  number: '394'
+  season: 1993-1994
+  theme: Trail Of Noise Show
+- date: '1994-01-29'
+  era: Classic MTV
+  guest_host: Bad Religion
+  host: Riki Rachtman
+  id: HBB-1994-029
+  notes: ''
+  number: '395'
+  season: 1993-1994
+  theme: ''
+- date: '1994-02-05'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1994-036
+  notes: NHL All-Star Game (pre-empted)
+  number: '396'
+  season: 1993-1994
+  theme: ''
+- date: '1994-02-12'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-043
+  notes: Riki Rachtman Hosts From Alcatraz
+  number: '397'
+  season: 1993-1994
+  theme: ''
+- date: '1994-02-19'
+  era: Classic MTV
+  guest_host: Metallica
+  host: Riki Rachtman
+  id: HBB-1994-050
+  notes: With Metallica in San Francisco
+  number: '398'
+  season: 1993-1994
+  theme: ''
+- date: '1994-02-26'
+  era: Classic MTV
+  guest_host: Pantera
+  host: Riki Rachtman
+  id: HBB-1994-057
+  notes: With studio reports from Pantera
+  number: '399'
+  season: 1993-1994
+  theme: ''
+- date: '1994-03-05'
+  era: Classic MTV
+  guest_host: Mutha's Day Out
+  host: Riki Rachtman
+  id: HBB-1994-064
+  notes: ''
+  number: '400'
+  season: 1993-1994
+  theme: ''
+- date: '1994-03-12'
+  era: Classic MTV
+  guest_host: Soundgarden
+  host: Riki Rachtman
+  id: HBB-1994-071
+  notes: Full 2 hour show with all commercials; Bad sound quality
+  number: '401'
+  season: 1993-1994
+  theme: Bowling themed episode
+- date: '1994-03-19'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1994-078
+  notes: ''
+  number: '402'
+  season: 1993-1994
+  theme: Spring Break at San Diego Zoo
+- date: '1994-03-26'
+  era: Classic MTV
+  guest_host: Pantera
+  host: Riki Rachtman
+  id: HBB-1994-085
+  notes: With Pantera in Dallas, Texas
+  number: '403'
+  season: 1993-1994
+  theme: ''
+- date: '1994-04-02'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-092
+  notes: ''
+  number: '404'
+  season: 1994-1995
+  theme: ''
+- date: '1994-04-09'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1994-099
+  notes: Pre-empted by MTV News coverage of Kurt Cobain's death
+  number: '405'
+  season: 1994-1995
+  theme: ''
+- date: '1994-04-16'
+  era: Classic MTV
+  guest_host: King's X
+  host: Riki Rachtman
+  id: HBB-1994-106
+  notes: ''
+  number: '406'
+  season: 1994-1995
+  theme: ''
+- date: '1994-04-23'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-113
+  notes: Metal Blox Edition
+  number: '407'
+  season: 1994-1995
+  theme: Metal Blox
+- date: '1994-04-30'
+  era: Classic MTV
+  guest_host: Zakk Wylde
+  host: Riki Rachtman
+  id: HBB-1994-120
+  notes: ''
+  number: '408'
+  season: 1994-1995
+  theme: ''
+- date: '1994-05-07'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-127
+  notes: ''
+  number: '409'
+  season: 1994-1995
+  theme: ''
+- date: '1994-05-14'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-134
+  notes: 77 minutes
+  number: '410'
+  season: 1994-1995
+  theme: HBB Japan w/ '93 BBQ Re-Broadcast
+- date: '1994-05-21'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-141
+  notes: ''
+  number: '411'
+  season: 1994-1995
+  theme: ''
+- date: '1994-05-28'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-148
+  notes: Memorial Day Weekend with mostly Bar-B-Que '93 repeat clips
+  number: '412'
+  season: 1994-1995
+  theme: Memorial Day Weekend
+- date: '1994-06-04'
+  era: Classic MTV
+  guest_host: Anthrax
+  host: Riki Rachtman
+  id: HBB-1994-155
+  notes: ''
+  number: '413'
+  season: 1994-1995
+  theme: ''
+- date: '1994-06-11'
+  era: Classic MTV
+  guest_host: GWAR, Infectious Grooves
+  host: Riki Rachtman
+  id: HBB-1994-162
+  notes: ''
+  number: '414'
+  season: 1994-1995
+  theme: ''
+- date: '1994-06-18'
+  era: Classic MTV
+  guest_host: Biohazard
+  host: Riki Rachtman
+  id: HBB-1994-169
+  notes: ''
+  number: '415'
+  season: 1994-1995
+  theme: ''
+- date: '1994-06-25'
+  era: Classic MTV
+  guest_host: Gene Simmons
+  host: Riki Rachtman
+  id: HBB-1994-176
+  notes: INCOMPLETE; 51 minutes
+  number: '416'
+  season: 1994-1995
+  theme: ''
+- date: '1994-07-02'
+  era: Classic MTV
+  guest_host: Soundgarden
+  host: Riki Rachtman
+  id: HBB-1994-183
+  notes: Full 2 hour show with all commercials & videos
+  number: '417'
+  season: 1994-1995
+  theme: ''
+- date: '1994-07-09'
+  era: Classic MTV
+  guest_host: Alice Cooper
+  host: Riki Rachtman
+  id: HBB-1994-190
+  notes: ''
+  number: '418'
+  season: 1994-1995
+  theme: ''
+- date: '1994-07-16'
+  era: Classic MTV
+  guest_host: Motley Crue
+  host: Riki Rachtman
+  id: HBB-1994-197
+  notes: ''
+  number: '419'
+  season: 1994-1995
+  theme: ''
+- date: '1994-07-23'
+  era: Classic MTV
+  guest_host: Stuttering John, Sugar Tooth
+  host: Riki Rachtman
+  id: HBB-1994-204
+  notes: ''
+  number: '420'
+  season: 1994-1995
+  theme: ''
+- date: '1994-07-30'
+  era: Classic MTV
+  guest_host: Bruce Dickinson
+  host: Riki Rachtman
+  id: HBB-1994-211
+  notes: ''
+  number: '421'
+  season: 1994-1995
+  theme: ''
+- date: '1994-08-06'
+  era: Classic MTV
+  guest_host: Ozzy Osbourne
+  host: Riki Rachtman
+  id: HBB-1994-218
+  notes: ''
+  number: '422'
+  season: 1994-1995
+  theme: ''
+- date: '1994-08-09'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-222
+  notes: Special Tuesday Edition featuring the movie premiere of Airheads
+  number: '423'
+  season: 1993-1994
+  theme: Movie Premier of Airheads
+- date: '1994-08-09'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-221
+  notes: Special Tuesday Edition - Airheads movie premiere
+  number: '424'
+  season: 1994-1995
+  theme: Movie Premier Of Airheads
+- date: '1994-08-13'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-225
+  notes: Woodstock '94
+  number: '425'
+  season: 1994-1995
+  theme: Woodstock '94
+- date: '1994-08-20'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-232
+  notes: Host From Alcatraz
+  number: '426'
+  season: 1994-1995
+  theme: ''
+- date: '1994-08-27'
+  era: Classic MTV
+  guest_host: House of Pain
+  host: Riki Rachtman
+  id: HBB-1994-239
+  notes: ''
+  number: '427'
+  season: 1994-1995
+  theme: ''
+- date: '1994-09-03'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-246
+  notes: Video Music Awards Nominees
+  number: '428'
+  season: 1994-1995
+  theme: Video Music Awards Nominees
+- date: '1994-09-10'
+  era: Classic MTV
+  guest_host: Metallica
+  host: Riki Rachtman
+  id: HBB-1994-253
+  notes: Metallica in San Francisco
+  number: '429'
+  season: 1994-1995
+  theme: ''
+- date: '1994-09-17'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1994-260
+  notes: Pre-empted by Beavis & Butthead Marathon
+  number: '430'
+  season: 1994-1995
+  theme: ''
+- date: '1994-09-24'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-267
+  notes: Metal Blox Edition
+  number: '431'
+  season: 1994-1995
+  theme: Metal Blox
+- date: '1994-10-01'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-274
+  notes: ''
+  number: '432'
+  season: 1994-1995
+  theme: ''
+- date: '1994-10-08'
+  era: Classic MTV
+  guest_host: Gilby Clarke
+  host: Riki Rachtman
+  id: HBB-1994-281
+  notes: ''
+  number: '433'
+  season: 1994-1995
+  theme: ''
+- date: '1994-10-15'
+  era: Classic MTV
+  guest_host: Queensryche
+  host: Riki Rachtman
+  id: HBB-1994-288
+  notes: Queensryche Promise Land Listening Party
+  number: '434'
+  season: 1994-1995
+  theme: Promise Land Listening Party
+- date: '1994-10-22'
+  era: Classic MTV
+  guest_host: Dream Theater
+  host: Riki Rachtman
+  id: HBB-1994-295
+  notes: ''
+  number: '435'
+  season: 1994-1995
+  theme: ''
+- date: '1994-10-29'
+  era: Classic MTV
+  guest_host: Slayer
+  host: Riki Rachtman
+  id: HBB-1994-302
+  notes: 2 hours; Also exists as 1 hour complete version
+  number: '436'
+  season: 1994-1995
+  theme: Night of the Living Megadeth / Halloween Edition
+- date: '1994-11-05'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-309
+  notes: ''
+  number: '437'
+  season: 1994-1995
+  theme: ''
+- date: '1994-11-12'
+  era: Classic MTV
+  guest_host: Corrosion of Conformity
+  host: Riki Rachtman
+  id: HBB-1994-316
+  notes: ''
+  number: '438'
+  season: 1994-1995
+  theme: ''
+- date: '1994-11-19'
+  era: Classic MTV
+  guest_host: Type O Negative
+  host: Riki Rachtman
+  id: HBB-1994-323
+  notes: ''
+  number: '439'
+  season: 1994-1995
+  theme: ''
+- date: '1994-11-26'
+  era: Classic MTV
+  guest_host: ''
+  host: ''
+  id: HBB-1994-330
+  notes: Pre-empted by Beavis & Butthead
+  number: '440'
+  season: 1994-1995
+  theme: ''
+- date: '1994-12-03'
+  era: Classic MTV
+  guest_host: Rancid
+  host: Riki Rachtman
+  id: HBB-1994-337
+  notes: ''
+  number: '441'
+  season: 1994-1995
+  theme: ''
+- date: '1994-12-10'
+  era: Classic MTV
+  guest_host: Marilyn Manson
+  host: Riki Rachtman
+  id: HBB-1994-344
+  notes: At Woodstock '94 with Marilyn Manson
+  number: '442'
+  season: 1994-1995
+  theme: ''
+- date: '1994-12-17'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-351
+  notes: Best of 1994
+  number: '443'
+  season: 1994-1995
+  theme: Best of 1994
+- date: '1994-12-24'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-358
+  notes: ''
+  number: '444'
+  season: 1994-1995
+  theme: ''
+- date: '1994-12-31'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1994-365
+  notes: ''
+  number: '445'
+  season: 1994-1995
+  theme: ''
+- date: '1995-01-15'
+  era: Classic MTV
+  guest_host: ''
+  host: Unknown
+  id: HBB-1995-408
+  notes: Final episode of classic MTV run; compilation of best moments
+  number: '446'
+  season: 1994-1995
+  theme: Best of Headbangers Ball
+- date: '1995-01-15'
+  era: Classic MTV
+  guest_host: ''
+  host: Riki Rachtman
+  id: HBB-1995-015
+  notes: FINAL EPISODE of classic MTV run! Retrospective featuring Guns N' Roses,
+    Faith No More, Metallica "One", Pearl Jam, Nirvana interviews; Ended with Riki
+    singing "Stone Cold Crazy" with Metallica
+  number: '447'
+  season: 1994-1995
+  theme: Best of Headbangers Ball - Final Episode
+- date: '2003-05-10'
+  era: MTV2 Revival
+  guest_host: ''
+  host: Metallica
+  id: HBB-2003-130
+  notes: First episode of MTV2 revival
+  number: '448'
+  season: MTV2 Revival
+  theme: Revival Debut Episode
+- date: '2003-05-24'
+  era: MTV2 Revival
+  guest_host: Stone Sour
+  host: Rob Zombie
+  id: HBB-2003-144
+  notes: '87:22; Quality: A+'
+  number: '449'
+  season: MTV2 Revival
+  theme: ''
+- date: '2003-05-31'
+  era: MTV2 Revival
+  guest_host: ''
+  host: Rob Zombie
+  id: HBB-2003-151
+  notes: ''
+  number: '450'
+  season: MTV2 Revival
+  theme: ''
+- date: '2003-06-16'
+  era: MTV2 Revival
+  guest_host: Riki Rachtman
+  host: Jamey Jasta
+  id: HBB-2003-616
+  notes: MTV2 revival episode with special guest Riki Rachtman; Truncated hour-long
+    repeat format
+  number: '451'
+  season: Season 9
+  theme: MTV2 Reboot
+- date: '2003-06-16'
+  era: MTV2 Revival
+  guest_host: Riki Rachtman
+  host: Jamey Jasta
+  id: HBB-2003-167
+  notes: Riki returns as guest; INCOMPLETE, missing first 15 minutes
+  number: '452'
+  season: MTV2 Revival
+  theme: ''
+- date: '2003-11-08'
+  era: MTV2 Revival
+  guest_host: ''
+  host: Jamey Jasta
+  id: HBB-2003-S09E02
+  notes: MTV2 revival era featuring Arch Enemy
+  number: '453'
+  season: Season 9
+  theme: ''
+- date: '2009-08-22'
+  era: MTV2 Revival
+  guest_host: ''
+  host: Rob Zombie
+  id: HBB-2009-234
+  notes: '41:12'
+  number: '454'
+  season: MTV2 Revival
+  theme: Halloween II Special
+- date: '2010-07-20'
+  era: MTV2 Revival
+  guest_host: ''
+  host: Overkill
+  id: HBB-2010-201
+  notes: Mostly Overkill videos
+  number: '455'
+  season: MTV2 Revival
+  theme: ''

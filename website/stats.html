@@ -1,0 +1,434 @@
+---
+layout: default
+title: Statistics
+---
+
+<section class="stats-page">
+    <div class="container">
+        <h1>Headbangers Ball Statistics</h1>
+        <p class="page-intro">Comprehensive statistics and insights from {{ site.data.stats.total_episodes }} documented episodes</p>
+
+        <!-- Overview Stats -->
+        <div class="stats-overview">
+            <div class="stat-card">
+                <div class="stat-number">{{ site.data.stats.total_episodes }}</div>
+                <div class="stat-label">Total Episodes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">{{ site.data.stats.years | size }}</div>
+                <div class="stat-label">Years Covered</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">{{ site.data.stats.hosts | size }}</div>
+                <div class="stat-label">Different Hosts</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">{{ site.data.stats.eras | size }}</div>
+                <div class="stat-label">Show Eras</div>
+            </div>
+        </div>
+
+        <!-- Episodes by Year -->
+        <div class="stats-section">
+            <h2>Episodes by Year</h2>
+            <div class="year-breakdown">
+                {% assign sorted_years = site.data.stats.years | sort %}
+                {% for year_data in sorted_years %}
+                    {% assign year = year_data[0] %}
+                    {% assign count = year_data[1] %}
+                    {% assign max_count = 52 %}
+                    {% assign percentage = count | times: 100 | divided_by: max_count %}
+
+                    <div class="year-bar-item">
+                        <div class="year-bar-label">
+                            <span class="year-name">{{ year }}</span>
+                            <span class="year-value">{{ count }} episodes</span>
+                        </div>
+                        <div class="year-bar-container">
+                            <div class="year-bar-fill" style="width: {{ percentage }}%"></div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Episodes by Era -->
+        <div class="stats-section">
+            <h2>Episodes by Era</h2>
+            <div class="era-grid">
+                {% for era_data in site.data.stats.eras %}
+                    {% assign era = era_data[0] %}
+                    {% assign count = era_data[1] %}
+                    <div class="era-card">
+                        <div class="era-name">{{ era }}</div>
+                        <div class="era-count">{{ count }} episodes</div>
+                        <div class="era-percentage">
+                            {{ count | times: 100 | divided_by: site.data.stats.total_episodes }}%
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Top Hosts -->
+        <div class="stats-section">
+            <h2>Most Frequent Hosts</h2>
+            <div class="hosts-ranking">
+                {% assign sorted_hosts = site.data.stats.hosts | sort_natural | reverse %}
+                {% for host_data in sorted_hosts limit:10 %}
+                    {% assign host = host_data[0] %}
+                    {% assign count = host_data[1] %}
+                    {% assign percentage = count | times: 100 | divided_by: site.data.stats.total_episodes %}
+
+                    <div class="host-rank-item">
+                        <div class="rank-number">{{ forloop.index }}</div>
+                        <div class="host-info">
+                            <div class="host-name">{{ host }}</div>
+                            <div class="host-stats">
+                                <span class="host-count">{{ count }} episodes</span>
+                                <span class="host-percentage">{{ percentage | round: 1 }}%</span>
+                            </div>
+                            <div class="host-bar-container">
+                                <div class="host-bar-fill" style="width: {{ percentage }}%"></div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Timeline Visualization -->
+        <div class="stats-section">
+            <h2>Timeline Overview</h2>
+            <div class="timeline-info">
+                <p>
+                    <strong>First Episode:</strong> April 18, 1987<br>
+                    <strong>Final Episode:</strong> 2012<br>
+                    <strong>Total Run:</strong> 25 years<br>
+                    <strong>Format:</strong> Weekly episodes (typically Saturdays)
+                </p>
+            </div>
+        </div>
+
+        <!-- Data Quality -->
+        <div class="stats-section">
+            <h2>Archive Completeness</h2>
+            <div class="completeness-grid">
+                <div class="completeness-card">
+                    <div class="completeness-title">Classic Era (1987-1995)</div>
+                    <div class="completeness-status complete">100%+ Complete</div>
+                    <p class="completeness-note">All original MTV run episodes documented</p>
+                </div>
+                <div class="completeness-card">
+                    <div class="completeness-title">MTV2 Era (2003-2012)</div>
+                    <div class="completeness-status partial">Actively Researching</div>
+                    <p class="completeness-note">Filling gaps in revival era episodes</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fun Facts -->
+        <div class="stats-section">
+            <h2>Did You Know?</h2>
+            <div class="fun-facts">
+                <div class="fact-card">
+                    <div class="fact-icon">🎸</div>
+                    <p>Headbangers Ball premiered on April 18, 1987, changing MTV forever</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">📺</div>
+                    <p>The show ran for over 25 years across two separate eras</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">🤘</div>
+                    <p>Featured legendary hosts including Riki Rachtman and Adam Curry</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">🌍</div>
+                    <p>International versions aired in countries around the world</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <a href="{{ '/episodes/' | relative_url }}" class="btn btn-primary">Browse All Episodes</a>
+        </div>
+    </div>
+</section>
+
+<style>
+.stats-page {
+    padding: var(--spacing-xxl) 0;
+}
+
+.page-intro {
+    text-align: center;
+    color: var(--color-text-dim);
+    font-size: 1.125rem;
+    margin-bottom: var(--spacing-xl);
+}
+
+.stats-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xxl);
+}
+
+.stats-section {
+    margin-bottom: var(--spacing-xxl);
+}
+
+.stats-section h2 {
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+}
+
+/* Year Breakdown */
+.year-breakdown {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.year-bar-item {
+    margin-bottom: var(--spacing-md);
+}
+
+.year-bar-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-xs);
+    font-size: 0.875rem;
+}
+
+.year-name {
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.year-value {
+    color: var(--color-text-dim);
+}
+
+.year-bar-container {
+    height: 24px;
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.year-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    transition: width 0.3s ease;
+}
+
+/* Era Grid */
+.era-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.era-card {
+    background: var(--color-bg-card);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-lg);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.era-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-4px);
+}
+
+.era-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.era-count {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: var(--spacing-xs);
+}
+
+.era-percentage {
+    color: var(--color-text-dim);
+    font-size: 0.875rem;
+}
+
+/* Hosts Ranking */
+.hosts-ranking {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.host-rank-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    transition: all 0.3s ease;
+}
+
+.host-rank-item:hover {
+    border-color: var(--color-primary);
+    transform: translateX(4px);
+}
+
+.rank-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    min-width: 60px;
+    text-align: center;
+}
+
+.host-info {
+    flex: 1;
+}
+
+.host-name {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-xs);
+}
+
+.host-stats {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xs);
+    font-size: 0.875rem;
+    color: var(--color-text-dim);
+}
+
+.host-bar-container {
+    height: 8px;
+    background: var(--color-bg-alt);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.host-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--color-accent), var(--color-primary));
+    transition: width 0.3s ease;
+}
+
+/* Timeline Info */
+.timeline-info {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-xl);
+    font-size: 1.125rem;
+    line-height: 1.8;
+}
+
+/* Completeness Grid */
+.completeness-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.completeness-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-lg);
+}
+
+.completeness-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+}
+
+.completeness-status {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.completeness-status.complete {
+    background: var(--color-accent);
+    color: var(--color-bg);
+}
+
+.completeness-status.partial {
+    background: var(--color-secondary);
+    color: var(--color-text);
+}
+
+.completeness-note {
+    color: var(--color-text-dim);
+    font-size: 0.875rem;
+}
+
+/* Fun Facts */
+.fun-facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.fact-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-lg);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.fact-card:hover {
+    border-color: var(--color-accent);
+    transform: scale(1.05);
+}
+
+.fact-icon {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.fact-card p {
+    color: var(--color-text-dim);
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+/* CTA Section */
+.cta-section {
+    text-align: center;
+    margin-top: var(--spacing-xxl);
+}
+
+@media (max-width: 768px) {
+    .host-rank-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rank-number {
+        font-size: 1.5rem;
+    }
+}
+</style>
