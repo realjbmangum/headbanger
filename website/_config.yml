@@ -3,8 +3,8 @@
 # Site settings
 title: "Headbangers Ball Archive"
 description: "The definitive archive of MTV's legendary heavy metal show (1987-2012)"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://realjbmangum.github.io" # your GitHub Pages URL (update this)
+baseurl: "/headbanger" # GitHub Pages subpath
+url: "https://realjbmangum.github.io" # GitHub Pages URL
 repository: "realjbmangum/headbanger"
 
 # Theme and styling
