@@ -24,8 +24,8 @@ title: Home
         </div>
 
         <div class="hero-cta">
-            <a href="{{ '/episodes/' | relative_url }}" class="btn btn-primary">Browse Episodes</a>
-            <a href="{{ '/stats/' | relative_url }}" class="btn btn-secondary">View Statistics</a>
+            <a href="{{ '/episodes.html' | relative_url }}" class="btn btn-primary">Browse Episodes</a>
+            <a href="{{ '/stats.html' | relative_url }}" class="btn btn-secondary">View Statistics</a>
         </div>
     </div>
 </section>
@@ -71,7 +71,7 @@ title: Home
                 <div class="year-card">
                     <div class="year-number">{{ year }}</div>
                     <div class="year-count">{{ count }} episodes</div>
-                    <a href="{{ '/episodes/' | relative_url }}?year={{ year }}" class="year-link">View →</a>
+                    <a href="{{ '/episodes.html' | relative_url }}?year={{ year }}" class="year-link">View →</a>
                 </div>
             {% endfor %}
         </div>
@@ -93,7 +93,7 @@ title: Home
                 </div>
             {% endfor %}
         </div>
-        <a href="{{ '/stats/' | relative_url }}" class="btn btn-secondary">View All Statistics →</a>
+        <a href="{{ '/stats.html' | relative_url }}" class="btn btn-secondary">View All Statistics →</a>
     </div>
 </section>
 
@@ -108,6 +108,6 @@ title: Home
             Every episode has been meticulously researched and cross-referenced from multiple sources to create
             the most comprehensive database of this iconic heavy metal television program.
         </p>
-        <a href="{{ '/about/' | relative_url }}" class="btn btn-secondary">Learn More →</a>
+        <a href="{{ '/about.html' | relative_url }}" class="btn btn-secondary">Learn More →</a>
     </div>
 </section>

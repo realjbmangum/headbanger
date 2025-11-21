@@ -8,7 +8,7 @@ layout: default
         <header class="episode-header">
             <div class="episode-breadcrumb">
                 <a href="{{ '/' | relative_url }}">Home</a> /
-                <a href="{{ '/episodes/' | relative_url }}">Episodes</a> /
+                <a href="{{ '/episodes.html' | relative_url }}">Episodes</a> /
                 {{ page.air_date | date: "%Y" }}
             </div>
 
@@ -99,7 +99,7 @@ layout: default
                 <span class="nav-button nav-disabled"></span>
             {% endif %}
 
-            <a href="{{ '/episodes/' | relative_url }}" class="nav-button nav-all">
+            <a href="{{ '/episodes.html' | relative_url }}" class="nav-button nav-all">
                 All Episodes
             </a>
 
