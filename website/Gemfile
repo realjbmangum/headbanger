@@ -1,17 +1,21 @@
 source "https://rubygems.org"
 
-# Jekyll version compatible with GitHub Pages
+# Jekyll version
 gem "jekyll", "~> 4.3.3"
 
-# GitHub Pages gems
-gem "github-pages", group: :jekyll_plugins
+# Webrick for Ruby 3.0+
+gem "webrick", "~> 1.8"
+
+# Required for Ruby 3.4+
+gem "csv", "~> 3.3"
+gem "logger", "~> 1.6"
+gem "base64", "~> 0.2"
 
 # Plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-sitemap", "~> 1.4"
-  gem "jekyll-paginate", "~> 1.1"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
