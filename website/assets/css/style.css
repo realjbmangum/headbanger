@@ -2,19 +2,19 @@
 
 /* ===== CSS Variables ===== */
 :root {
-    /* Authentic 80s MTV Colors */
+    /* Dark 80s MTV Colors */
     --color-bg: #000000;
-    --color-bg-alt: #0a0000;
-    --color-bg-card: #1a0505;
-    --color-primary: #FF006E; /* Saturated magenta */
+    --color-bg-alt: #0a0a0a;
+    --color-bg-card: #1a1a1a;
+    --color-primary: #FF006E; /* Saturated magenta - for accents only */
     --color-primary-dark: #8B0040; /* Darker magenta */
     --color-secondary: #FFD700; /* Metallic gold */
     --color-secondary-dark: #B39700; /* Darker gold */
     --color-chrome: #E8E8E8; /* Chrome white */
     --color-chrome-dark: #A0A0A0; /* Chrome shadow */
     --color-text: #FFFFFF;
-    --color-text-dim: #B0B0B0;
-    --color-border: #FF006E;
+    --color-text-dim: #CCCCCC;
+    --color-border: #333333; /* Dark gray borders instead of magenta */
     --color-glow: #FF006EFF; /* Magenta glow */
 
     /* Typography - Gothic/Blackletter aesthetic with web-safe fallbacks */
@@ -49,7 +49,7 @@ html {
 body {
     font-family: var(--font-body);
     background:
-        /* Video noise texture */
+        /* Subtle video noise texture */
         repeating-linear-gradient(
             0deg,
             rgba(0,0,0,0.15) 0px,
@@ -57,21 +57,8 @@ body {
             transparent 2px,
             rgba(0,0,0,0.15) 3px
         ),
-        /* CRT scanlines */
-        repeating-linear-gradient(
-            90deg,
-            rgba(255,0,110,0.03) 0px,
-            transparent 1px,
-            transparent 2px,
-            rgba(255,0,110,0.03) 3px
-        ),
-        /* Radial magenta-to-black gradient */
-        radial-gradient(
-            ellipse at center top,
-            var(--color-primary-dark) 0%,
-            #1a0010 30%,
-            #000000 70%
-        );
+        /* Pure black background */
+        #000000;
     background-attachment: fixed;
     color: var(--color-text);
     line-height: 1.6;
@@ -81,7 +68,7 @@ body {
     letter-spacing: 0.5px;
 }
 
-/* CRT Screen Glow Effect */
+/* Removed purple glow overlay */
 body::before {
     content: '';
     position: fixed;
@@ -89,14 +76,8 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(
-        ellipse at center,
-        transparent 0%,
-        rgba(255,0,110,0.1) 100%
-    );
     pointer-events: none;
     z-index: 9999;
-    animation: pulse 4s ease-in-out infinite;
 }
 
 @keyframes pulse {
@@ -104,50 +85,21 @@ body::before {
     50% { opacity: 0.8; }
 }
 
-/* ===== Typography with Chrome Bevel Effect ===== */
+/* ===== Typography with Simplified Effects ===== */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
     font-weight: 900;
-    line-height: 1.1;
+    line-height: 1.2;
     margin-bottom: var(--spacing-md);
     letter-spacing: 2px;
     text-transform: uppercase;
+    color: #FFFFFF;
 
-    /* Chrome bevel effect - 45-degree highlight/shadow */
+    /* Simplified text shadow for readability */
     text-shadow:
-        /* White chrome highlights (upper-left) */
-        -1px -1px 0 #FFFFFF,
-        -2px -2px 0 #F0F0F0,
-        -3px -3px 0 #E0E0E0,
-        -4px -4px 0 #D0D0D0,
-        /* Gold metallic middle */
-        -5px -5px 0 var(--color-secondary),
-        -6px -6px 0 var(--color-secondary-dark),
-        /* Deep black drop shadow (lower-right) */
-        1px 1px 0 #000000,
         2px 2px 0 #000000,
         3px 3px 0 #000000,
-        4px 4px 0 #000000,
-        5px 5px 0 #000000,
-        6px 6px 0 #000000,
-        7px 7px 0 #000000,
-        /* Magenta inner glow */
-        0 0 20px rgba(255,0,110,0.8),
-        0 0 40px rgba(255,0,110,0.4);
-
-    /* Gold-to-silver gradient fill */
-    background: linear-gradient(
-        180deg,
-        var(--color-secondary) 0%,
-        #FFFFFF 50%,
-        var(--color-chrome-dark) 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-
-    /* Sharp black outline */
-    -webkit-text-stroke: 2px #000000;
+        0 0 10px rgba(255,0,110,0.5);
 }
 
 h1 {
@@ -168,14 +120,11 @@ a {
     color: var(--color-primary);
     text-decoration: none;
     transition: all 0.3s ease;
-    text-shadow: 0 0 10px rgba(255,0,110,0.5);
 }
 
 a:hover {
     color: var(--color-secondary);
-    text-shadow:
-        0 0 10px rgba(255,215,0,0.8),
-        0 0 20px rgba(255,215,0,0.4);
+    text-shadow: 0 0 8px rgba(255,215,0,0.5);
 }
 
 /* ===== Layout ===== */
@@ -225,13 +174,7 @@ a:hover {
 
 .site-title a {
     color: var(--color-text);
-    text-shadow:
-        -2px -2px 0 #FFFFFF,
-        -3px -3px 0 var(--color-secondary),
-        2px 2px 0 #000000,
-        3px 3px 0 #000000,
-        4px 4px 0 #000000,
-        0 0 30px var(--color-glow);
+    text-shadow: none;
 }
 
 .site-title a:hover {
@@ -415,12 +358,8 @@ a:hover {
     color: var(--color-secondary);
     line-height: 1;
     text-shadow:
-        -1px -1px 0 #FFFFFF,
-        -2px -2px 0 var(--color-chrome),
-        1px 1px 0 #000000,
         2px 2px 0 #000000,
-        3px 3px 0 #000000,
-        0 0 20px rgba(255,215,0,0.8);
+        0 0 12px rgba(255,215,0,0.6);
     font-family: var(--font-display);
 }
 
