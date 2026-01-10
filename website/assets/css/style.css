@@ -13,7 +13,7 @@
     --color-chrome: #E8E8E8; /* Chrome white */
     --color-chrome-dark: #A0A0A0; /* Chrome shadow */
     --color-text: #FFFFFF;
-    --color-text-dim: #CCCCCC;
+    --color-text-dim: #E0E0E0; /* Improved contrast */
     --color-border: #333333; /* Dark gray borders instead of magenta */
     --color-glow: #FF006EFF; /* Magenta glow */
 
@@ -645,3 +645,174 @@ section h2 {
 .text-center { text-align: center; }
 .mt-0 { margin-top: 0; }
 .mb-0 { margin-bottom: 0; }
+
+/* ===== Accessibility - Focus States ===== */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid var(--color-secondary);
+    outline-offset: 2px;
+}
+
+.main-nav a:focus-visible {
+    outline: 3px solid var(--color-secondary);
+    outline-offset: 2px;
+    border-color: var(--color-secondary);
+    background: rgba(255, 215, 0, 0.2);
+}
+
+.btn:focus-visible {
+    outline: 3px solid var(--color-secondary);
+    outline-offset: 2px;
+}
+
+/* Skip to content link for screen readers */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-secondary);
+    color: #000;
+    padding: var(--spacing-sm) var(--spacing-md);
+    z-index: 9999;
+    font-weight: bold;
+}
+
+.skip-link:focus {
+    top: var(--spacing-sm);
+}
+
+/* ===== Mobile Menu ===== */
+.mobile-menu-btn {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1001;
+}
+
+.hamburger-line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: var(--color-chrome);
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 0, 110, 0.5);
+}
+
+/* Hamburger animation when open */
+.mobile-menu-btn.active .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+.mobile-menu-btn.active .hamburger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.mobile-menu-btn.active .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+@media (max-width: 768px) {
+    .mobile-menu-btn {
+        display: flex;
+    }
+
+    .main-nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 280px;
+        height: 100vh;
+        background: linear-gradient(180deg, rgba(26, 26, 26, 0.98) 0%, rgba(0, 0, 0, 0.98) 100%);
+        border-left: 3px solid var(--color-primary);
+        box-shadow: -10px 0 30px rgba(255, 0, 110, 0.3);
+        padding: calc(var(--spacing-xxl) + 20px) var(--spacing-lg) var(--spacing-lg);
+        transition: right 0.3s ease;
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    .main-nav.active {
+        right: 0;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    .main-nav a {
+        display: block;
+        padding: var(--spacing-md);
+        font-size: 1.1rem;
+        border: 2px solid var(--color-border);
+        text-align: center;
+    }
+
+    .main-nav a:hover,
+    .main-nav a:focus {
+        border-color: var(--color-primary);
+        background: rgba(255, 0, 110, 0.2);
+    }
+
+    /* Mobile nav overlay */
+    .nav-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        z-index: 999;
+    }
+
+    .nav-overlay.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* Adjust header for mobile */
+    .header-content {
+        justify-content: space-between;
+    }
+
+    .site-logo {
+        height: 60px;
+    }
+
+    /* Responsive typography */
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    }
+}

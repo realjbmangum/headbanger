@@ -8,10 +8,65 @@
 
     // Wait for DOM to be ready
     document.addEventListener('DOMContentLoaded', function() {
+        initMobileMenu();
         initNavigation();
         initScrollEffects();
         initAnimations();
     });
+
+    /**
+     * Mobile menu toggle
+     */
+    function initMobileMenu() {
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mainNav = document.getElementById('main-nav');
+
+        if (!menuBtn || !mainNav) return;
+
+        // Create overlay element
+        const overlay = document.createElement('div');
+        overlay.className = 'nav-overlay';
+        document.body.appendChild(overlay);
+
+        function openMenu() {
+            menuBtn.classList.add('active');
+            mainNav.classList.add('active');
+            overlay.classList.add('active');
+            menuBtn.setAttribute('aria-expanded', 'true');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMenu() {
+            menuBtn.classList.remove('active');
+            mainNav.classList.remove('active');
+            overlay.classList.remove('active');
+            menuBtn.setAttribute('aria-expanded', 'false');
+            document.body.style.overflow = '';
+        }
+
+        function toggleMenu() {
+            if (mainNav.classList.contains('active')) {
+                closeMenu();
+            } else {
+                openMenu();
+            }
+        }
+
+        menuBtn.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', closeMenu);
+
+        // Close on escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && mainNav.classList.contains('active')) {
+                closeMenu();
+            }
+        });
+
+        // Close when clicking a nav link
+        mainNav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', closeMenu);
+        });
+    }
 
     /**
      * Navigation enhancements
@@ -52,7 +107,6 @@
         const header = document.querySelector('.site-header');
         if (!header) return;
 
-        let lastScroll = 0;
         let ticking = false;
 
         window.addEventListener('scroll', function() {
@@ -67,7 +121,6 @@
                         header.style.boxShadow = 'none';
                     }
 
-                    lastScroll = currentScroll;
                     ticking = false;
                 });
 
@@ -143,29 +196,6 @@
         };
     };
 
-    /**
-     * Back to top button (if implemented)
-     */
-    function initBackToTop() {
-        const backToTop = document.getElementById('back-to-top');
-        if (!backToTop) return;
-
-        window.addEventListener('scroll', function() {
-            if (window.pageYOffset > 500) {
-                backToTop.classList.add('visible');
-            } else {
-                backToTop.classList.remove('visible');
-            }
-        });
-
-        backToTop.addEventListener('click', function(e) {
-            e.preventDefault();
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-    }
 
     /**
      * Copy to clipboard utility
@@ -258,34 +288,6 @@
         window.print();
     };
 
-    /**
-     * Initialize tooltips (if implemented)
-     */
-    function initTooltips() {
-        const tooltipElements = document.querySelectorAll('[data-tooltip]');
-
-        tooltipElements.forEach(element => {
-            element.addEventListener('mouseenter', function() {
-                const tooltipText = this.getAttribute('data-tooltip');
-                const tooltip = document.createElement('div');
-                tooltip.className = 'tooltip';
-                tooltip.textContent = tooltipText;
-                this.appendChild(tooltip);
-
-                // Position tooltip
-                const rect = this.getBoundingClientRect();
-                tooltip.style.top = (rect.top - tooltip.offsetHeight - 10) + 'px';
-                tooltip.style.left = (rect.left + (rect.width / 2) - (tooltip.offsetWidth / 2)) + 'px';
-            });
-
-            element.addEventListener('mouseleave', function() {
-                const tooltip = this.querySelector('.tooltip');
-                if (tooltip) {
-                    tooltip.remove();
-                }
-            });
-        });
-    }
 
     // Log initialization
     console.log('🤘 Headbangers Ball Archive initialized');
