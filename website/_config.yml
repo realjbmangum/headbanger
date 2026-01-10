@@ -3,8 +3,8 @@
 # Site settings
 title: "Headbangers Ball Archive"
 description: "The definitive archive of MTV's legendary heavy metal show (1987-2012)"
-baseurl: "/headbanger" # GitHub Pages subpath
-url: "https://realjbmangum.github.io" # GitHub Pages URL
+baseurl: "" # Root path for Cloudflare Pages
+url: "https://headbanger.pages.dev" # Cloudflare Pages URL (will update after deployment)
 repository: "realjbmangum/headbanger"
 
 # Theme and styling
