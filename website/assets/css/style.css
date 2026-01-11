@@ -1,5 +1,30 @@
 /* Headbangers Ball Archive - Metal Aesthetic V2 */
 
+/* ===== Self-Hosted Fonts ===== */
+@font-face {
+    font-family: 'Metal Mania';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/assets/fonts/metal-mania.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500 700;
+    font-display: swap;
+    src: url('/assets/fonts/oswald-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url('/assets/fonts/inter-latin.woff2') format('woff2');
+}
+
 /* ===== CSS Variables ===== */
 :root {
     /* Core Colors - Pure black with metallic gold accent */
@@ -23,7 +48,7 @@
     --font-hero: 'Metal Mania', 'Impact', cursive;
     --font-display: 'Oswald', 'Bebas Neue', 'Impact', sans-serif;
     --font-body: 'Inter', system-ui, -apple-system, sans-serif;
-    --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+    --font-mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
 
     /* Spacing */
     --spacing-xs: 0.5rem;
