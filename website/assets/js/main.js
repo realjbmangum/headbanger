@@ -80,8 +80,7 @@
             const linkPath = new URL(link.href).pathname;
             if (currentPath === linkPath ||
                 (linkPath !== '/' && currentPath.startsWith(linkPath))) {
-                link.style.color = 'var(--color-primary)';
-                link.style.background = 'var(--color-bg-card)';
+                link.style.color = 'var(--color-accent)';
             }
         });
 
@@ -142,14 +141,14 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.style.opacity = '0';
-                    entry.target.style.transform = 'translateY(20px)';
-                    entry.target.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                    entry.target.style.transform = 'translateY(10px)';
+                    entry.target.style.transition = 'opacity 0.2s ease, transform 0.2s ease';
 
                     // Trigger animation
                     setTimeout(() => {
                         entry.target.style.opacity = '1';
                         entry.target.style.transform = 'translateY(0)';
-                    }, 100);
+                    }, 50);
 
                     observer.unobserve(entry.target);
                 }
@@ -164,7 +163,7 @@
 
         animatedElements.forEach((el, index) => {
             // Stagger the animations slightly
-            el.style.transitionDelay = `${index * 0.05}s`;
+            el.style.transitionDelay = `${index * 0.02}s`;
             observer.observe(el);
         });
     }
@@ -289,8 +288,35 @@
     };
 
 
+    /**
+     * Era classification helper
+     * Returns the era name based on episode date
+     */
+    window.getEra = function(dateString) {
+        const date = new Date(dateString);
+        const year = date.getFullYear();
+        const month = date.getMonth() + 1;
+
+        // Kevin Seal era: 1987 - early 1988
+        if (year === 1987 || (year === 1988 && month <= 4)) {
+            return 'seal';
+        }
+        // Adam Curry era: 1988 - 1990
+        if ((year === 1988 && month > 4) || year === 1989 || year === 1990) {
+            return 'curry';
+        }
+        // Riki Rachtman era: 1990 - 1995
+        if (year >= 1990 && year <= 1995) {
+            return 'rachtman';
+        }
+        // MTV2 era: 2003 - 2012
+        if (year >= 2003 && year <= 2012) {
+            return 'mtv2';
+        }
+        return 'unknown';
+    };
+
     // Log initialization
-    console.log('🤘 Headbangers Ball Archive initialized');
-    console.log('📺 Preserving metal history since 1987');
+    console.log('Headbangers Ball Archive initialized');
 
 })();
