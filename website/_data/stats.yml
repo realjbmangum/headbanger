@@ -1,27 +1,3 @@
-eras:
-  Classic MTV: 447
-  MTV2 Revival: 8
-hosts:
-  Adam Curry: 49
-  Alice Cooper: 2
-  Anthrax: 4
-  Bruce Dickinson: 2
-  Dee Snider: 2
-  Frehley's Comet: 2
-  Iron Maiden: 2
-  Jamey Jasta: 3
-  Kevin Seal: 16
-  King Diamond: 3
-  Kiss: 2
-  Lita Ford: 3
-  Mark Goodman: 2
-  Queensryche: 2
-  Riki Rachtman: 256
-  Rob Zombie: 3
-  Ron Keel: 2
-  Sam Kinison: 2
-  Scorpions: 2
-  Unknown: 3
 total_episodes: 455
 years:
   '1987': 52
@@ -36,3 +12,80 @@ years:
   '2003': 6
   '2009': 1
   '2010': 1
+hosts:
+  Riki Rachtman: 256
+  Adam Curry: 49
+  Kevin Seal: 16
+  Anthrax: 4
+  King Diamond: 3
+  Unknown: 3
+  Lita Ford: 3
+  Rob Zombie: 3
+  Jamey Jasta: 3
+  Dee Snider: 2
+  Frehley's Comet: 2
+  Ron Keel: 2
+  Bruce Dickinson: 2
+  Sam Kinison: 2
+  Mark Goodman: 2
+  Scorpions: 2
+  Queensryche: 2
+  Alice Cooper: 2
+  Kiss: 2
+  Iron Maiden: 2
+  Leslie West: 1
+  Ozzy Osbourne: 1
+  Craig Wells & Kirk Arrington (Metal Church): 1
+  Wendy O Williams: 1
+  Megadeth: 1
+  Rob Halford (Judas Priest): 1
+  Ace Frehley: 1
+  Downtown Julie Brown: 1
+  Ronnie James Dio: 1
+  Blackie Lawless (W.A.S.P.): 1
+  Grim Reaper: 1
+  Lizzy Borden & Lips (Anvil): 1
+  Kane Roberts: 1
+  Doro Pesch: 1
+  Smash: 1
+  Helloween, Armored Saint, Grim Reaper: 1
+  Savatage: 1
+  DIO: 1
+  Zodiac Mindwarp: 1
+  Guns N' Roses: 1
+  Vinnie Vincent: 1
+  Rob Halford: 1
+  Axl Rose & Slash (Guns N' Roses): 1
+  Yngwie Malmsteen: 1
+  Ozzy Osbourne & Zakk Wylde: 1
+  Kix: 1
+  Bullet Boys: 1
+  Ratt: 1
+  Adam Curry & Downtown Julie Brown: 1
+  Tony Iommi & Cozy Powell: 1
+  Bonham: 1
+  Michael Monroe & Jon Sierra: 1
+  Brian Wheat & Tommy Skeoch (Tesla): 1
+  Michael Monroe: 1
+  Steve Vai: 1
+  Poison: 1
+  Death Angel: 1
+  Dave Mustaine, David Ellefson: 1
+  Living Colour: 1
+  AC/DC: 1
+  Winger: 1
+  Trixter: 1
+  Riki Rachtman, Jani Lane: 1
+  Cinderella: 1
+  The Bulletboys: 1
+  Lemmy Kilmister: 1
+  L.A. Guns: 1
+  Nikki Sixx & Vince Neil (Motley Crue): 1
+  Spinal Tap: 1
+  Faith No More: 1
+  Ugly Kid Joe: 1
+  Metallica: 1
+  Overkill: 1
+eras:
+  Classic MTV: 447
+  MTV2 Revival: 8

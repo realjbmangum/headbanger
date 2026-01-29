@@ -43,6 +43,14 @@ exclude:
   - README.md
   - scripts
 
+# Performance optimizations
+incremental: true
+profile: false
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+
 # Plugins
 plugins:
   - jekyll-feed

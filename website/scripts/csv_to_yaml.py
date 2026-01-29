@@ -91,35 +91,31 @@ def create_data_yaml(episodes, output_file):
 
 def generate_stats(episodes):
     """Generate statistics for the site."""
-    from collections import Counter
+    from collections import Counter, OrderedDict
 
-    stats = {
-        'total_episodes': len(episodes),
-        'years': {},
-        'hosts': {},
-        'eras': {},
-    }
+    stats = OrderedDict()
+    stats['total_episodes'] = len(episodes)
 
-    # Count by year
+    # Count by year (sorted chronologically)
     year_counter = Counter()
     for ep in episodes:
         year = ep['air_date'][:4]
         year_counter[year] += 1
-    stats['years'] = dict(sorted(year_counter.items()))
+    stats['years'] = OrderedDict(sorted(year_counter.items()))
 
-    # Count by host
+    # Count by host (sorted by count, descending)
     host_counter = Counter()
     for ep in episodes:
         if ep['host']:
             host_counter[ep['host']] += 1
-    stats['hosts'] = dict(host_counter.most_common(20))
+    stats['hosts'] = OrderedDict(host_counter.most_common())
 
-    # Count by era
+    # Count by era (sorted by count, descending)
     era_counter = Counter()
     for ep in episodes:
         if ep['era']:
             era_counter[ep['era']] += 1
-    stats['eras'] = dict(era_counter.items())
+    stats['eras'] = OrderedDict(sorted(era_counter.items(), key=lambda x: x[1], reverse=True))
 
     return stats
 
@@ -144,7 +140,12 @@ if __name__ == "__main__":
     # Generate and save stats
     stats = generate_stats(episodes)
     with open(data_dir / 'stats.yml', 'w') as f:
-        yaml.dump(stats, f, default_flow_style=False)
+        # Convert OrderedDict to regular dict for clean YAML output
+        clean_stats = dict(stats)
+        clean_stats['years'] = dict(stats['years'])
+        clean_stats['hosts'] = dict(stats['hosts'])
+        clean_stats['eras'] = dict(stats['eras'])
+        yaml.dump(clean_stats, f, default_flow_style=False, sort_keys=False)
     print(f"✅ Created stats file")
 
     print("\n🎉 Jekyll data generation complete!")
