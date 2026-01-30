@@ -25,6 +25,20 @@ title: All Episodes
                     <option value="{{ era_data[0] }}">{{ era_data[0] }}</option>
                 {% endfor %}
             </select>
+
+            <select id="host-filter" class="filter-select">
+                <option value="">All Hosts</option>
+                {% for host_data in site.data.stats.hosts limit:20 %}
+                    <option value="{{ host_data[0] }}">{{ host_data[0] }}</option>
+                {% endfor %}
+            </select>
+
+            <button id="reset-filters" class="btn-reset">Clear Filters</button>
+        </div>
+
+        <!-- Results Count -->
+        <div class="results-count" id="results-count">
+            Showing <strong id="visible-count">{{ site.episodes.size }}</strong> of <strong>{{ site.episodes.size }}</strong> episodes
         </div>
 
         <!-- Episodes Grid -->
@@ -34,6 +48,7 @@ title: All Episodes
             <div class="episode-card"
                  data-year="{{ episode.air_date | date: '%Y' }}"
                  data-era="{{ episode.era }}"
+                 data-host="{{ episode.host }}"
                  data-search="{{ episode.title | downcase }} {{ episode.host | downcase }} {{ episode.guest_host | downcase }}">
 
                 <div class="episode-date">
@@ -135,6 +150,34 @@ title: All Episodes
     background: var(--color-secondary);
     color: var(--color-text);
 }
+
+.btn-reset {
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--color-bg-hover);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-reset:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
+.results-count {
+    text-align: center;
+    padding: var(--spacing-md) 0;
+    margin-bottom: var(--spacing-lg);
+    color: var(--color-text-secondary);
+    font-size: 0.875rem;
+}
+
+.results-count strong {
+    color: var(--color-accent);
+}
 </style>
 
 <script>
@@ -143,13 +186,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('search');
     const yearFilter = document.getElementById('year-filter');
     const eraFilter = document.getElementById('era-filter');
+    const hostFilter = document.getElementById('host-filter');
+    const resetButton = document.getElementById('reset-filters');
     const episodesContainer = document.getElementById('episodes-container');
     const noResults = document.getElementById('no-results');
+    const visibleCountEl = document.getElementById('visible-count');
+    const totalEpisodes = episodesContainer.querySelectorAll('.episode-card').length;
 
     function filterEpisodes() {
         const searchTerm = searchInput.value.toLowerCase();
         const selectedYear = yearFilter.value;
         const selectedEra = eraFilter.value;
+        const selectedHost = hostFilter.value;
 
         const episodes = episodesContainer.querySelectorAll('.episode-card');
         let visibleCount = 0;
@@ -158,14 +206,18 @@ document.addEventListener('DOMContentLoaded', function() {
             const matchesSearch = episode.dataset.search.includes(searchTerm);
             const matchesYear = !selectedYear || episode.dataset.year === selectedYear;
             const matchesEra = !selectedEra || episode.dataset.era === selectedEra;
+            const matchesHost = !selectedHost || episode.dataset.host === selectedHost;
 
-            if (matchesSearch && matchesYear && matchesEra) {
+            if (matchesSearch && matchesYear && matchesEra && matchesHost) {
                 episode.style.display = '';
                 visibleCount++;
             } else {
                 episode.style.display = 'none';
             }
         });
+
+        // Update count
+        visibleCountEl.textContent = visibleCount;
 
         // Show/hide no results message
         if (visibleCount === 0) {
@@ -177,9 +229,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    function resetFilters() {
+        searchInput.value = '';
+        yearFilter.value = '';
+        eraFilter.value = '';
+        hostFilter.value = '';
+        filterEpisodes();
+    }
+
     searchInput.addEventListener('input', filterEpisodes);
     yearFilter.addEventListener('change', filterEpisodes);
     eraFilter.addEventListener('change', filterEpisodes);
+    hostFilter.addEventListener('change', filterEpisodes);
+    resetButton.addEventListener('click', resetFilters);
 
     // Check for URL params
     const urlParams = new URLSearchParams(window.location.search);

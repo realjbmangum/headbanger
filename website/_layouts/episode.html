@@ -23,6 +23,10 @@ layout: default
             <div class="episode-air-date">
                 {{ page.air_date | date: "%B %d, %Y" }}
             </div>
+
+            <button class="share-button" id="share-button" title="Copy link to episode">
+                📋 Share Episode
+            </button>
         </header>
 
         <!-- Episode Info Grid -->
@@ -328,6 +332,31 @@ layout: default
     pointer-events: none;
 }
 
+.share-button {
+    display: inline-block;
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.share-button:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    transform: translateY(-2px);
+}
+
+.share-button.copied {
+    background: var(--color-accent);
+    color: #000;
+    border-color: var(--color-accent);
+}
+
 @media (max-width: 768px) {
     .episode-detail-title {
         font-size: 1.75rem;
@@ -350,3 +379,54 @@ layout: default
     }
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const shareButton = document.getElementById('share-button');
+
+    if (shareButton) {
+        shareButton.addEventListener('click', function() {
+            const url = window.location.href;
+
+            // Try to use the Clipboard API
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(url).then(function() {
+                    showCopiedState();
+                }).catch(function() {
+                    fallbackCopy(url);
+                });
+            } else {
+                fallbackCopy(url);
+            }
+        });
+    }
+
+    function showCopiedState() {
+        shareButton.textContent = '✓ Link Copied!';
+        shareButton.classList.add('copied');
+
+        setTimeout(function() {
+            shareButton.textContent = '📋 Share Episode';
+            shareButton.classList.remove('copied');
+        }, 2000);
+    }
+
+    function fallbackCopy(text) {
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        textArea.style.position = 'fixed';
+        textArea.style.left = '-9999px';
+        document.body.appendChild(textArea);
+        textArea.select();
+
+        try {
+            document.execCommand('copy');
+            showCopiedState();
+        } catch (err) {
+            alert('Copy failed. Please copy manually: ' + text);
+        }
+
+        document.body.removeChild(textArea);
+    }
+});
+</script>
