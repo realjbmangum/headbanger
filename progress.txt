@@ -1,0 +1,52 @@
+## Session - 2026-01-29
+
+**Completed:**
+- Fixed host statistics sorting bug (was alphabetical, now sorted by count)
+- Optimized Jekyll performance with incremental builds
+- Added Host filter dropdown to episodes page
+- Added "Clear Filters" button to reset all filters
+- Added live results counter ("Showing X of 455 episodes")
+- Added Share button to episode detail pages (copy link to clipboard)
+- All features from PRD Stories 4 & 5 implemented
+
+**Files Changed:**
+- website/_config.yml - Added incremental builds and Liquid optimizations
+- website/_data/stats.yml - Regenerated with proper host sorting (Riki: 256, Adam: 49, etc.)
+- website/scripts/csv_to_yaml.py - Fixed to use OrderedDict and preserve sort order
+- website/stats.html - Removed broken sort_natural, now uses pre-sorted data
+- website/episodes.html - Added host filter, results counter, clear button
+- website/_layouts/episode.html - Added share button with clipboard functionality
+
+**Decisions:**
+- Pre-sort stats data in Python rather than Liquid (better performance)
+- Use OrderedDict to preserve sort order when generating YAML
+- Keep filtering client-side (no backend needed for 455 episodes)
+- Share button uses native Clipboard API with fallback for older browsers
+
+**Next Steps:**
+- [ ] Test site performance after incremental build changes
+- [ ] Consider adding Grid/List view toggle (PRD Story 4)
+- [ ] Consider adding Host tenure timeline visual (PRD Story 6)
+- [ ] Engagement strategy: Reach out to Riki Rachtman with archive
+  - Draft short message (Option 1 from discussion)
+  - Lead with completed archive value
+  - No ask, just share the work
+
+**Gotchas:**
+- Jekyll's sort_natural filter doesn't work on hash values by count
+- PyYAML outputs Python objects when using OrderedDict - need to convert to dict before dumping
+- Host filtering required adding data-host attribute to episode cards
+- 455 episode files load slowly without incremental builds enabled
+
+**Project Status:**
+- MVP website: ✅ Complete
+- V2 Design: ✅ Applied and looks good
+- Host stats: ✅ Fixed and working
+- Core PRD features: ✅ Mostly complete
+- Missing: Grid/list toggle, host timeline visual (nice-to-haves)
+
+**Riki Rachtman Outreach Context:**
+- He sells merch on cathousehollywood.com (needs upgrade)
+- User wants old show archives from his era (1990-1995)
+- Strategy: Lead with value (show him the archive), don't ask for anything initially
+- Short message approach recommended: "Built archive of all 455 episodes, your era documented, check it out: [link]"
